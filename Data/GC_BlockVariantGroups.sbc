@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+    <!--Rangefinders-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CommanderRangefinder" />
+            <Icon>Textures\GUI\Icons\Cubes\CommanderRangefinder.dds</Icon>
+            <DisplayName>Commander Rangefinder</DisplayName>
+            <Description>A 'Scissor' Style Commander Rangefinder. Accurate to 1000m</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class1_CommanderRangefinder" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class1_CommanderRangefinder_Offset_Down" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretTopRangefinder" />
+            <Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+            <DisplayName>Turret Top Rangefinder</DisplayName>
+            <Description>A Turret Top Rangefinder, accurate to 2000m</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_TurretTopRangefinder" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_TurretTopRangefinder_Centered" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_TurretTopRangefinder_Offset_Down" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_TurretTopRangefinder_Offset_Down_Centered" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_TurretTopRangefinder_TwiceOffset_Down" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_TurretTopRangefinder_TwiceOffset_Down_Centered" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CoincidenceRangefinder" />
+            <Icon>Textures\GUI\Icons\Cubes\CoincidenceRangefinder.dds</Icon>
+            <DisplayName>Coincidence Rangefinder</DisplayName>
+            <Description>A Coincidence Rangefinder. Accurate to 2000m</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_CoincidenceRangefinder" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_CoincidenceRangefinder_Offset_Left" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class2_CoincidenceRangefinder_Offset_Right" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LaserRangefinder" />
+            <Icon>Textures\GUI\Icons\Cubes\LaserRangefinder.dds</Icon>
+            <DisplayName>Laser Rangefinder</DisplayName>
+            <Description>A laser rangefinder</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class3_LaserRangefinder" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class3_LaserRangefinder_Offset_Back" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class3_LaserRangefinder_Offset_Down" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RoofLRF" />
+            <Icon>Textures\GUI\Icons\Cubes\RoofLRF.dds</Icon>
+            <DisplayName>Roof Laser Rangefinder</DisplayName>
+            <Description>A laser rangefinder - Grind down for alternate models</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class3_RoofLRF" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="Class3_RoofLRF_Offset_Down" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RangefinderMantlets" />
+            <Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet.dds</Icon>
+            <DisplayName>Rangefinder Mantlets</DisplayName>
+            <Description>A cowling for a rangefinder</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WW2RangefinderMantlet" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WW2RangefinderMantlet_Offset_Left" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WW2RangefinderMantlet_Offset_Right" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WW2RangefinderMantlet2" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WW2RangefinderMantlet2_Offset_Left" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="WW2RangefinderMantlet2_Offset_Right" />
+            </Blocks>
+        </BlockVariantGroup>
+    <!--GunsightCams-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GunsightCam" />
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <DisplayName>GunsightCam</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Left" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Right" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Up" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Down" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GunsightCam Offset" />
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <DisplayName>GunsightCam</DisplayName>
+            <Description>A WW2 Gunsight - Offset</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Offset" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetLeft" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetRight" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetUp" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetDown" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Spiderweb Gunsight" />
+            <Icon>Textures\GUI\Icons\Cubes\SpiderwebOptic.dds</Icon>
+            <DisplayName>Spiderweb Gunsight</DisplayName>
+            <Description>A WW2 Anti-Aircraft Gunsight</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsight" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsightOD" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsightOU" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Spiderweb Gunsight ALT" />
+            <Icon>Textures\GUI\Icons\Cubes\SpiderwebOptic.dds</Icon>
+            <DisplayName>Spiderweb Gunsight</DisplayName>
+            <Description>A WW2 Anti-Aircraft Gunsight</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsightALT" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsightALTOU" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsightALTOD" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>

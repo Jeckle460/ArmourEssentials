@@ -1,0 +1,804 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	<!-- Rangefinders -->
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Commander Rangefinder - Class 1-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>Class1_CommanderRangefinder</SubtypeId>
+            </Id>
+            <DisplayName>Commander Rangefinder</DisplayName>
+            <Description>A 'Scissor' Style Commander Rangefinder. Accurate to 1000m</Description>
+            <Icon>Textures\GUI\Icons\Cubes\CommanderRangefinder.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Rangefinders\CommanderRangefinder.mwm</Model>
+            <Components>
+					<Component Subtype="SteelPlate" Count="1" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="1" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+			</Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>Commander Rangefinder</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0001</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Commander Rangefinder Offset Down - Class 1-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class1_CommanderRangefinder_Offset_Down</SubtypeId>
+				</Id>
+				<DisplayName>Commander Rangefinder Offset</DisplayName>
+				<Description>A 'Scissor' Style Commander Rangefinder. Accurate to 1000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\CommanderRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.175" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\CommanderRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="1" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="1" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>false</IsStandAlone>
+				<HasPhysics>false</HasPhysics>
+				<BlockPairName>Commander Rangefinder Offset</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--TurretTop Rangefinder - Class 2-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>Class2_TurretTopRangefinder</SubtypeId>
+            </Id>
+            <DisplayName>Turret Top Rangefinder</DisplayName>
+            <Description>A Turret Top Rangefinder, accurate to 2000m</Description>
+            <Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\Rangefinders\TurretTopRangefinder1.mwm</Model>
+            <Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="3" />
+			</Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>true</IsStandAlone>
+            <HasPhysics>true</HasPhysics>
+            <BlockPairName>Turret Top Rangefinder</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0001</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--TurretTop Rangefinder Offset Down - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_TurretTopRangefinder_Offset_Down</SubtypeId>
+				</Id>
+				<DisplayName>Turret Top Rangefinder Offset</DisplayName>
+				<Description>A Turret Top Rangefinder. accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.25" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\TurretTopRangefinder1.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Turret Top Rangefinder Offset</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--TurretTop Rangefinder Offset Down - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_TurretTopRangefinder_TwiceOffset_Down</SubtypeId>
+				</Id>
+				<DisplayName>Turret Top Rangefinder Twice Offset</DisplayName>
+				<Description>A Turret Top Rangefinder. accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.5" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\TurretTopRangefinder1.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Turret Top Rangefinder Twice Offset</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--TurretTop Rangefinder CENTERED - Class 2-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>Class2_TurretTopRangefinder_Centered</SubtypeId>
+            </Id>
+            <DisplayName>Turret Top Rangefinder Centered</DisplayName>
+            <Description>A Turret Top Rangefinder, accurate to 2000m</Description>
+            <Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0.25" />
+            <Model>Models\Cubes\Small\Rangefinders\TurretTopRangefinder1.mwm</Model>
+            <Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="3" />
+			</Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>true</IsStandAlone>
+            <HasPhysics>true</HasPhysics>
+            <BlockPairName>Turret Top Rangefinder Centered</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0001</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--TurretTop Rangefinder Offset Down Centered - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_TurretTopRangefinder_Offset_Down_Centered</SubtypeId>
+				</Id>
+				<DisplayName>Turret Top Rangefinder Offset Centered</DisplayName>
+				<Description>A Turret Top Rangefinder. accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.25" z="0.25" />
+				<Model>Models\Cubes\Small\Rangefinders\TurretTopRangefinder1.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Turret Top Rangefinder Offset Centered</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--TurretTop Rangefinder Twice Offset Down Centered - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_TurretTopRangefinder_TwiceOffset_Down_Centered</SubtypeId>
+				</Id>
+				<DisplayName>Turret Top Rangefinder Twice Offset Centered</DisplayName>
+				<Description>A Turret Top Rangefinder. accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\TurretTopRangefinder1.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.5" z="0.25" />
+				<Model>Models\Cubes\Small\Rangefinders\TurretTopRangefinder1.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Turret Top Rangefinder Twice Offset Centered</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Coincidence Rangefinder - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_CoincidenceRangefinder</SubtypeId>
+				</Id>
+				<DisplayName>Coincidence Rangefinder</DisplayName>
+				<Description>A Coincidence Rangefinder. Accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\CoincidenceRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="0" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\CoincidenceRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Coincidence Rangefinder</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Coincidence Rangefinder Offset Left - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_CoincidenceRangefinder_Offset_Left</SubtypeId>
+				</Id>
+				<DisplayName>Coincidence Rangefinder Offset Left</DisplayName>
+				<Description>A Coincidence Rangefinder. Accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\CoincidenceRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="-0.125" y="0" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\CoincidenceRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Coincidence Rangefinder Offset Left</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Coincidence Rangefinder Offset Right - Class 2-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class2_CoincidenceRangefinder_Offset_Right</SubtypeId>
+				</Id>
+				<DisplayName>Coincidence Rangefinder Offset Right</DisplayName>
+				<Description>A Coincidence Rangefinder. Accurate to 2000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\CoincidenceRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0.125" y="0" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\CoincidenceRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="4" />
+					<Component Subtype="Computer" Count="3" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="2" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
+				<BlockPairName>Coincidence Rangefinder Offset Right</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.0001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+				
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Laser Rangefinder - Class 3-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class3_LaserRangefinder</SubtypeId>
+				</Id>
+				<DisplayName>Laser Rangefinder</DisplayName>
+				<Description>A Laser Rangefinder. Accurate to 5000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\LaserRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.193" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\LaserRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="3" />
+					<Component Subtype="Computer" Count="5" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="1" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>false</IsStandAlone>
+				<HasPhysics>false</HasPhysics>
+				<BlockPairName>Laser Rangefinder</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Laser Rangefinder Offset Back - Class 3-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class3_LaserRangefinder_Offset_Back</SubtypeId>
+				</Id>
+				<DisplayName>Laser Rangefinder Offset Back</DisplayName>
+				<Description>A Laser Rangefinder. Accurate to 5000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\LaserRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.193" z="0.5" />
+				<Model>Models\Cubes\Small\Rangefinders\LaserRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="3" />
+					<Component Subtype="Computer" Count="5" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="1" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>false</IsStandAlone>
+				<HasPhysics>false</HasPhysics>
+				<BlockPairName>Laser Rangefinder Offset Back</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Laser Rangefinder Offset Down - Class 3-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class3_LaserRangefinder_Offset_Down</SubtypeId>
+				</Id>
+				<DisplayName>Laser Rangefinder Offset Down</DisplayName>
+				<Description>A Laser Rangefinder. Accurate to 5000m</Description>
+				<Icon>Textures\GUI\Icons\Cubes\LaserRangefinder.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.693" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\LaserRangefinder.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="3" />
+					<Component Subtype="Computer" Count="5" />
+					<Component Subtype="SteelPlate" Count="2" />
+					<Component Subtype="BulletproofGlass" Count="1" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<IsStandAlone>false</IsStandAlone>
+				<HasPhysics>false</HasPhysics>
+				<BlockPairName>Laser Rangefinder Offset Down</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+	<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF - Class 3-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class3_RoofLRF</SubtypeId>
+				</Id>
+				<DisplayName>Roof Laser Rangefinder</DisplayName>
+				<Description>A Laser Rangefinder. Accurate to 5000m - Grind down for Alternate model</Description>
+				<Icon>Textures\GUI\Icons\Cubes\RoofLRF.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="0" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\RoofLRF.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="5" />
+					<Component Subtype="Computer" Count="5" />
+					<Component Subtype="SteelPlate" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="4" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS2.mwm"/>
+				</BuildProgressModels>
+				<IsStandAlone>false</IsStandAlone>
+				<HasPhysics>false</HasPhysics>
+				<BlockPairName>Roof Laser Rangefinder</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF Offset Down - Class 3-->
+				<Id>
+					<TypeId>CameraBlock</TypeId>
+					<SubtypeId>Class3_RoofLRF_Offset_Down</SubtypeId>
+				</Id>
+				<DisplayName>Roof Laser Rangefinder Offset Down</DisplayName>
+				<Description>A Laser Rangefinder. Accurate to 5000m - Grind down for Alternate model</Description>
+				<Icon>Textures\GUI\Icons\Cubes\RoofLRF.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="1" y="1" z="1" />
+				<ModelOffset x="0" y="-0.25" z="0" />
+				<Model>Models\Cubes\Small\Rangefinders\RoofLRF.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="5" />
+					<Component Subtype="Computer" Count="5" />
+					<Component Subtype="SteelPlate" Count="5" />
+					<Component Subtype="BulletproofGlass" Count="4" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS2.mwm"/>
+				</BuildProgressModels>
+				<IsStandAlone>false</IsStandAlone>
+				<HasPhysics>false</HasPhysics>
+				<BlockPairName>Roof Laser Rangefinder Offset Down</BlockPairName>
+				<BuildTimeSeconds>6</BuildTimeSeconds>
+				<EdgeType>Light</EdgeType>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<RequiredPowerInput>0.001</RequiredPowerInput>
+				<OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+				<MinFov>0.03</MinFov>
+				<MaxFov>0.8</MaxFov>
+				<Public>true</Public>
+				<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+				<DestroySound>PoofExplosionCat1</DestroySound>
+				<PCU>25</PCU>
+				<IsAirTight>false</IsAirTight>
+		</Definition>
+
+	<!--Mantlets-->
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--RangefinderMantlet 1-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>WW2RangefinderMantlet</SubtypeId>
+			</Id>
+			<DisplayName>WW2 Rangefinder Mantlet</DisplayName>
+			<Description>A round cowling for a rangefinder in a WW2 style.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\Rangefinders\WW2RangefinderMantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>WW2 Rangefinder Mantlet</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--RangefinderMantlet 1 Left-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>WW2RangefinderMantlet_Offset_Left</SubtypeId>
+			</Id>
+			<DisplayName>WW2 Rangefinder Mantlet Left</DisplayName>
+			<Description>A round cowling for a rangefinder in a WW2 style.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="-0.125" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\Rangefinders\WW2RangefinderMantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>WW2 Rangefinder Mantlet Left</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--RangefinderMantlet 1 Right-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>WW2RangefinderMantlet_Offset_Right</SubtypeId>
+			</Id>
+			<DisplayName>WW2 Rangefinder Mantlet Right</DisplayName>
+			<Description>A round cowling for a rangefinder in a WW2 style.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0.125" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\Rangefinders\WW2RangefinderMantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>WW2 Rangefinder Mantlet Right</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+	<!--Mantlet 2-->
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--RangefinderMantlet 2-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>WW2RangefinderMantlet2</SubtypeId>
+			</Id>
+			<DisplayName>WW2 Rangefinder Mantlet 2</DisplayName>
+			<Description>A cylindrical cowling for a rangefinder in a WW2 style.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\Rangefinders\WW2RangefinderMantlet2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>WW2 Rangefinder Mantlet 2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--RangefinderMantlet 2 Left-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>WW2RangefinderMantlet2_Offset_Left</SubtypeId>
+			</Id>
+			<DisplayName>WW2 Rangefinder Mantlet 2 Left</DisplayName>
+			<Description>A cylindrical cowling for a rangefinder in a WW2 style.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="-0.125" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\Rangefinders\WW2RangefinderMantlet2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>WW2 Rangefinder Mantlet Left 2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--RangefinderMantlet 2 Right-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>WW2RangefinderMantlet2_Offset_Right</SubtypeId>
+			</Id>
+			<DisplayName>WW2 Rangefinder Mantlet 2 Right</DisplayName>
+			<Description>A cylindrical cowling for a rangefinder in a WW2 style.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\WW2RangefinderMantlet2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0.125" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\Rangefinders\WW2RangefinderMantlet2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>WW2 Rangefinder Mantlet Right</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+
+
+	
+	</CubeBlocks>
+</Definitions>

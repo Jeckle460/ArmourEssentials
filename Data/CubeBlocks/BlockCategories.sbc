@@ -1,0 +1,377 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>Armour Essentials</DisplayName>
+            <Name>AE_Category1</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--GunsightCameras-->
+				<string>CameraBlock/GunsightCam</string>
+				<string>CameraBlock/GunsightCam_Down</string>
+				<string>CameraBlock/GunsightCam_Left</string>
+				<string>CameraBlock/GunsightCam_Right</string>
+				<string>CameraBlock/GunsightCam_Up</string>
+				<string>CameraBlock/GunsightCam_Offset</string>
+				<string>CameraBlock/GunsightCam_OffsetDown</string>
+				<string>CameraBlock/GunsightCam_OffsetLeft</string>
+				<string>CameraBlock/GunsightCam_OffsetRight</string>
+				<string>CameraBlock/GunsightCam_OffsetUp</string>
+
+				<!--SpiderwebGunsights-->
+				<string>CameraBlock/SpiderwebGunsight</string>
+				<string>CameraBlock/SpiderwebGunsightOD</string>
+				<string>CameraBlock/SpiderwebGunsightOU</string>
+				<string>CameraBlock/SpiderwebGunsightALT</string>
+				<string>CameraBlock/SpiderwebGunsightALTOU</string>
+				<string>CameraBlock/SpiderwebGunsightALTOD</string>
+
+				<!--RangefindersCameras-->
+				<string>CameraBlock/Class1_CommanderRangefinder</string>
+				<string>CameraBlock/Class1_CommanderRangefinder_Offset_Down</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_Offset_Down</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_TwiceOffset_Down</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_Centered</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_Offset_Down_Centered</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_TwiceOffset_Down_Centered</string>
+				<string>CameraBlock/Class2_CoincidenceRangefinder</string>
+				<string>CameraBlock/Class2_CoincidenceRangefinder_Offset_Left</string>
+				<string>CameraBlock/Class2_CoincidenceRangefinder_Offset_Right</string>
+				<string>CameraBlock/Class3_LaserRangefinder</string>
+				<string>CameraBlock/Class3_LaserRangefinder_Offset_Back</string>
+				<string>CameraBlock/Class3_LaserRangefinder_Offset_Down</string>
+				<string>CameraBlock/Class3_RoofLRF</string>
+				<string>CameraBlock/Class3_RoofLRF_Offset_Down</string>
+
+				<!--RangefinderMantlets-->
+				<string>CubeBlock/WW2RangefinderMantlet</string>
+				<string>CubeBlock/WW2RangefinderMantlet_Offset_Left</string>
+				<string>CubeBlock/WW2RangefinderMantlet_Offset_Right</string>
+				<string>CubeBlock/WW2RangefinderMantlet2</string>
+				<string>CubeBlock/WW2RangefinderMantlet2_Offset_Left</string>
+				<string>CubeBlock/WW2RangefinderMantlet2_Offset_Right</string>
+
+				<!--Ammoracks-->
+				<string>CubeBlock/AmmorackTypeIII</string>
+				<string>CubeBlock/AmmorackTypeIII-2</string>
+				<string>CubeBlock/AmmorackTypeIII-3</string>
+				<string>CubeBlock/AmmorackTypeIII-3a</string>
+				<string>CubeBlock/AmmorackTypeIII-4</string>
+				<string>CubeBlock/AmmorackTypeIII-5</string>
+				<string>CubeBlock/AmmorackTypeIII-5a</string>
+				<string>CubeBlock/AmmorackTypeIII-5b</string>
+				<string>CubeBlock/AmmorackTypeIII-6a</string>
+				<string>CubeBlock/AmmorackTypeIII-6b</string>
+				<string>CubeBlock/AmmorackTypeIV</string>
+
+				<!--TurretRingRotors 3x3-->
+				<string>MotorStator/TurretRingStator3x3</string>
+				<string>MotorStator/TurretRingStator3x3_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3_CENTERED</string>
+				<string>MotorStator/TurretRingStator3x3Floored</string>
+				<string>MotorStator/TurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3Floored_CENTERED</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored_CENTERED</string>
+				<string>MotorRotor/TurretRingRotor3x3</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor3x3</string>
+				<string>CubeBlock/TurretRing3x3Mantlet</string>
+				<string>CubeBlock/TurretRing3x3MantletHalfOffset</string>
+
+				<!--TurretRingRotors 4x4-->
+				<string>MotorStator/TurretRingStator4x4</string>
+				<string>MotorStator/TurretRingStator4x4Floored</string>
+				<string>MotorStator/TurretRingStator4x4_OFFSET</string>
+				<string>MotorStator/TurretRingStator4x4Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator4x4Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator4x4Floored_OFFSET</string>
+
+				<!--TurretRingRotors 5x5-->
+				<string>MotorStator/TurretRingStator5x5</string>
+				<string>MotorStator/TurretRingStator5x5Floored</string>
+				<string>MotorStator/TurretRingStator5x5_OFFSET</string>
+				<string>MotorStator/TurretRingStator5x5Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator5x5Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator5x5Floored_OFFSET</string>
+				<string>MotorRotor/TurretRingRotor5x5</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
+				<string>CubeBlock/TurretRing5x5Mantlet</string>
+				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+
+				<!--SlimRotors-->
+				<string>MotorStator/NakedStator</string>
+				<string>MotorStator/NakedStatorOffset</string>
+				<string>MotorStator/NakedStatorQuarterOffset</string>
+				<string>MotorRotor/NakedRotor</string>
+
+				<!--TurretControlBlocks-->
+				<string>TurretControlBlock/TurretTraverseCTC</string>
+				<string>TurretControlBlock/TurretTraverseCTC_OU</string>
+				<string>TurretControlBlock/TurretTraverseCTC_OD</string>
+
+				<!--ProgrammableBlocks-->
+				<string>MyProgrammableBlock/TurretTraversePB</string>
+				<string>MyProgrammableBlock/TurretTraversePB_OU</string>
+				<string>MyProgrammableBlock/TurretTraversePB_OD</string>
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>   AE GunsightCameras</DisplayName>
+            <Name>AE_Category2</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--GunsightCameras-->
+				<string>CameraBlock/GunsightCam</string>
+				<string>CameraBlock/GunsightCam_Down</string>
+				<string>CameraBlock/GunsightCam_Left</string>
+				<string>CameraBlock/GunsightCam_Right</string>
+				<string>CameraBlock/GunsightCam_Up</string>
+				<string>CameraBlock/GunsightCam_Offset</string>
+				<string>CameraBlock/GunsightCam_OffsetDown</string>
+				<string>CameraBlock/GunsightCam_OffsetLeft</string>
+				<string>CameraBlock/GunsightCam_OffsetRight</string>
+				<string>CameraBlock/GunsightCam_OffsetUp</string>
+
+				<!--SpiderwebGunsights-->
+				<string>CameraBlock/SpiderwebGunsight</string>
+				<string>CameraBlock/SpiderwebGunsightOD</string>
+				<string>CameraBlock/SpiderwebGunsightOU</string>
+				<string>CameraBlock/SpiderwebGunsightALT</string>
+				<string>CameraBlock/SpiderwebGunsightALTOU</string>
+				<string>CameraBlock/SpiderwebGunsightALTOD</string>
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>   AE Rangefinders</DisplayName>
+            <Name>AE_Category3</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+
+				<!--RangefindersCameras-->
+				<string>CameraBlock/Class1_CommanderRangefinder</string>
+				<string>CameraBlock/Class1_CommanderRangefinder_Offset_Down</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_Offset_Down</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_TwiceOffset_Down</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_Centered</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_Offset_Down_Centered</string>
+				<string>CameraBlock/Class2_TurretTopRangefinder_TwiceOffset_Down_Centered</string>
+				<string>CameraBlock/Class2_CoincidenceRangefinder</string>
+				<string>CameraBlock/Class2_CoincidenceRangefinder_Offset_Left</string>
+				<string>CameraBlock/Class2_CoincidenceRangefinder_Offset_Right</string>
+				<string>CameraBlock/Class3_LaserRangefinder</string>
+				<string>CameraBlock/Class3_LaserRangefinder_Offset_Back</string>
+				<string>CameraBlock/Class3_LaserRangefinder_Offset_Down</string>
+				<string>CameraBlock/Class3_RoofLRF</string>
+				<string>CameraBlock/Class3_RoofLRF_Offset_Down</string>
+
+				<!--RangefinderMantlets-->
+				<string>CubeBlock/WW2RangefinderMantlet</string>
+				<string>CubeBlock/WW2RangefinderMantlet_Offset_Left</string>
+				<string>CubeBlock/WW2RangefinderMantlet_Offset_Right</string>
+				<string>CubeBlock/WW2RangefinderMantlet2</string>
+				<string>CubeBlock/WW2RangefinderMantlet2_Offset_Left</string>
+				<string>CubeBlock/WW2RangefinderMantlet2_Offset_Right</string>
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>   AE AdditionalAmmoracks</DisplayName>
+            <Name>AE_Category4</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--Ammoracks-->
+				<string>CubeBlock/AmmorackTypeIII</string>
+				<string>CubeBlock/AmmorackTypeIII-2</string>
+				<string>CubeBlock/AmmorackTypeIII-3</string>
+				<string>CubeBlock/AmmorackTypeIII-3a</string>
+				<string>CubeBlock/AmmorackTypeIII-4</string>
+				<string>CubeBlock/AmmorackTypeIII-5</string>
+				<string>CubeBlock/AmmorackTypeIII-5a</string>
+				<string>CubeBlock/AmmorackTypeIII-5b</string>
+				<string>CubeBlock/AmmorackTypeIII-6a</string>
+				<string>CubeBlock/AmmorackTypeIII-6b</string>
+				<string>CubeBlock/AmmorackTypeIV</string>
+
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>   AE TurretRing Rotors</DisplayName>
+            <Name>AE_Category5</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--TurretRingRotors 3x3-->
+				<string>MotorStator/TurretRingStator3x3</string>
+				<string>MotorStator/TurretRingStator3x3_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3_CENTERED</string>
+				<string>MotorStator/TurretRingStator3x3Floored</string>
+				<string>MotorStator/TurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3Floored_CENTERED</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored_CENTERED</string>
+				<string>MotorRotor/TurretRingRotor3x3</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor3x3</string>
+				<string>CubeBlock/TurretRing3x3Mantlet</string>
+				<string>CubeBlock/TurretRing3x3MantletHalfOffset</string>
+
+				<!--TurretRingRotors 4x4-->
+				<string>MotorStator/TurretRingStator4x4</string>
+				<string>MotorStator/TurretRingStator4x4Floored</string>
+				<string>MotorStator/TurretRingStator4x4_OFFSET</string>
+				<string>MotorStator/TurretRingStator4x4Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator4x4Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator4x4Floored_OFFSET</string>
+
+				<!--TurretRingRotors 5x5-->
+				<string>MotorStator/TurretRingStator5x5</string>
+				<string>MotorStator/TurretRingStator5x5Floored</string>
+				<string>MotorStator/TurretRingStator5x5_OFFSET</string>
+				<string>MotorStator/TurretRingStator5x5Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator5x5Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator5x5Floored_OFFSET</string>
+				<string>MotorRotor/TurretRingRotor5x5</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
+				<string>CubeBlock/TurretRing5x5Mantlet</string>
+				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+
+				<!--SlimRotors-->
+				<string>MotorStator/NakedStator</string>
+				<string>MotorStator/NakedStatorOffset</string>
+				<string>MotorStator/NakedStatorQuarterOffset</string>
+				<string>MotorRotor/NakedRotor</string>
+
+				<!--TurretControlBlocks-->
+				<string>TurretControlBlock/TurretTraverseCTC</string>
+				<string>TurretControlBlock/TurretTraverseCTC_OU</string>
+				<string>TurretControlBlock/TurretTraverseCTC_OD</string>
+
+				<!--ProgrammableBlocks-->
+				<string>MyProgrammableBlock/TurretTraversePB</string>
+				<string>MyProgrammableBlock/TurretTraversePB_OU</string>
+				<string>MyProgrammableBlock/TurretTraversePB_OD</string>
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>      3x3</DisplayName>
+            <Name>AE_Category7</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--TurretRingRotors 3x3-->
+				<string>MotorStator/TurretRingStator3x3</string>
+				<string>MotorStator/TurretRingStator3x3_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3_CENTERED</string>
+				<string>MotorStator/TurretRingStator3x3Floored</string>
+				<string>MotorStator/TurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorStator/TurretRingStator3x3Floored_CENTERED</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator3x3Floored_CENTERED</string>
+				<string>MotorRotor/TurretRingRotor3x3</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor3x3</string>
+				<string>CubeBlock/TurretRing3x3Mantlet</string>
+				<string>CubeBlock/TurretRing3x3MantletHalfOffset</string>
+
+				
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>      4x4</DisplayName>
+            <Name>AE_Category8</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--TurretRingRotors 4x4-->
+				<string>MotorStator/TurretRingStator4x4</string>
+				<string>MotorStator/TurretRingStator4x4Floored</string>
+				<string>MotorStator/TurretRingStator4x4_OFFSET</string>
+				<string>MotorStator/TurretRingStator4x4Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator4x4Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator4x4Floored_OFFSET</string>
+
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>      5x5</DisplayName>
+            <Name>AE_Category9</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+
+				<!--TurretRingRotors 5x5-->
+				<string>MotorStator/TurretRingStator5x5</string>
+				<string>MotorStator/TurretRingStator5x5Floored</string>
+				<string>MotorStator/TurretRingStator5x5_OFFSET</string>
+				<string>MotorStator/TurretRingStator5x5Floored_OFFSET</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator5x5Floored</string>
+				<string>MotorAdvancedStator/AdvTurretRingStator5x5Floored_OFFSET</string>
+				<string>MotorRotor/TurretRingRotor5x5</string>
+				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
+				<string>CubeBlock/TurretRing5x5Mantlet</string>
+				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>      1x1</DisplayName>
+            <Name>AE_Category6</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+				<!--SlimRotors-->
+				<string>MotorStator/NakedStator</string>
+				<string>MotorStator/NakedStatorOffset</string>
+				<string>MotorStator/NakedStatorQuarterOffset</string>
+				<string>MotorRotor/NakedRotor</string>
+
+				<!--TurretControlBlocks-->
+				<string>TurretControlBlock/TurretTraverseCTC</string>
+				<string>TurretControlBlock/TurretTraverseCTC_OU</string>
+				<string>TurretControlBlock/TurretTraverseCTC_OD</string>
+
+				<!--ProgrammableBlocks-->
+				<string>MyProgrammableBlock/TurretTraversePB</string>
+				<string>MyProgrammableBlock/TurretTraversePB_OU</string>
+				<string>MyProgrammableBlock/TurretTraversePB_OD</string>
+            </ItemIds>
+        </Category>
+		
+		
+
+
+    </CategoryClasses>
+
+</Definitions>

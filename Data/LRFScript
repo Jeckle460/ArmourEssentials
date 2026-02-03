@@ -1,0 +1,64 @@
+namespace ARFScript
+{
+    partial class Program : MyGridProgram
+    {
+        IMyMotorBase MainElevationRotor;
+        IMySmallGatlingGun MainGun;
+        IMyCameraBlock Rangefinder;
+        float gravity = -9.81f;
+        float projectileVelocity;
+
+        public Program()
+        {
+            Runtime.UpdateFrequency = UpdateFrequency.Update1; // Run Main() every tick
+        }
+
+        public void Save()
+        {
+            // Save any important state here if needed
+        }
+
+        public void Main(string argument)
+        {
+            // Get the block group
+            IMyBlockGroup blockGroup = GridTerminalSystem.GetBlockGroupWithName("[AutoRF]");
+            if (blockGroup == null)
+            {
+                Echo("Error: Block group [AutoRF] not found");
+                return;
+            }
+
+            // Get blocks from the group
+            List<IMyTerminalBlock> blocks = new List<IMyTerminalBlock>();
+            blockGroup.GetBlocks(blocks);
+
+            // Populate the blocks
+            foreach (IMyTerminalBlock block in blocks)
+            {
+                if (block is IMyCameraBlock)
+                    Rangefinder = block as IMyCameraBlock;
+                else if (block is IMySmallGatlingGun)
+                    MainGun = block as IMySmallGatlingGun;
+                else if (block is IMyMotorBase)
+                    MainElevationRotor = block as IMyMotorBase;
+            }
+
+            // Validate blocks were found
+            if (Rangefinder == null || MainGun == null || MainElevationRotor == null)
+            {
+                Echo("Error: Missing required blocks in [AutoRF] group");
+                return;
+            }
+
+            // For programmable blocks, you cannot directly access projectile velocity
+            // You would need to hardcode it or use a terminal property if available
+            // Example: hardcode gatling gun velocity (Small Gatling: ~400 m/s)
+            projectileVelocity = 400f; // adjust based on your gun
+
+            Echo($"Main Gun: {MainGun.DisplayName}");
+            Echo($"Rangefinder: {Rangefinder.DisplayName}");
+            Echo($"Elevation Rotor: {MainElevationRotor.DisplayName}");
+            Echo($"Projectile Velocity (estimated): {projectileVelocity} m/s");
+        } // <- Added closing brace for Main method
+    }
+}

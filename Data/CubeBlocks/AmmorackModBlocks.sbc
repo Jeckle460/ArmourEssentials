@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<!-- Type-III Ammoracks Start -->
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII</SubtypeId>
+			</Id>
+			<DisplayName>Ammorack Type III</DisplayName>
+			<Description>One Type III shell.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-2</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Floor Ammorack</DisplayName>
+			<Description>Floor Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-2.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-2</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-3</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack 1x2</DisplayName>
+			<Description>Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-3.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-3</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-3a</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack 1x2, Mirrored</DisplayName>
+			<Description>Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-3a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-3a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-3a</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-4</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Slope</DisplayName>
+			<Description>Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-4.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-4</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-5</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Cube 1</DisplayName>
+			<Description>Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-5</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-5a</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Cube 2</DisplayName>
+			<Description>Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-5a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-5a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-5a</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-5b</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Cube 3</DisplayName>
+			<Description>Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-5b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-5b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-5b</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-6a</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 3x3 Circle Ammorack 1</DisplayName>
+			<Description>Curved Wall Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-6a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-6a.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-6a</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIII-6b</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 3x3 Circle Ammorack 2</DisplayName>
+			<Description>Curved Wall Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-6b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIII-6b.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIII-6b</BlockPairName>
+		</Definition>
+		<!-- Type-III Ammoracks End -->
+		<!-- Type-IV Ammoracks Start -->
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AmmorackTypeIV</SubtypeId>
+			</Id>
+			<DisplayName>Ammorack Type IV</DisplayName>
+			<Description>One Type IV shell.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIV.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AmmorackTypeIV.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="2"/>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<BlockPairName>AmmorackTypeIV</BlockPairName>
+		</Definition>
+		<!-- Type-IV Ammoracks End -->
+	</CubeBlocks>
+</Definitions>

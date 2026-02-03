@@ -576,8 +576,8 @@
 				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS1.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS2.mwm"/>
 				</BuildProgressModels>
-				<IsStandAlone>false</IsStandAlone>
-				<HasPhysics>false</HasPhysics>
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
 				<BlockPairName>Roof Laser Rangefinder</BlockPairName>
 				<BuildTimeSeconds>6</BuildTimeSeconds>
 				<EdgeType>Light</EdgeType>
@@ -595,7 +595,7 @@
 				<PCU>25</PCU>
 				<IsAirTight>false</IsAirTight>
 		</Definition>
-		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF Offset Down - Class 3-->
+	<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF Offset Down - Class 3-->
 				<Id>
 					<TypeId>CameraBlock</TypeId>
 					<SubtypeId>Class3_RoofLRF_Offset_Down</SubtypeId>
@@ -619,8 +619,8 @@
 				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS1.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Rangefinders\RoofLRF_BS2.mwm"/>
 				</BuildProgressModels>
-				<IsStandAlone>false</IsStandAlone>
-				<HasPhysics>false</HasPhysics>
+				<IsStandAlone>true</IsStandAlone>
+				<HasPhysics>true</HasPhysics>
 				<BlockPairName>Roof Laser Rangefinder Offset Down</BlockPairName>
 				<BuildTimeSeconds>6</BuildTimeSeconds>
 				<EdgeType>Light</EdgeType>

@@ -111,6 +111,8 @@ namespace Jeckle.Scripts
         static void AddDopaminSights()
         {
             // these are all the options and they're not all required so use only what you need.
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binoculars", "Binocular", 0.65f, 0.7f));
+
             AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 1", "Vision_Port_1", 0.05f, 0.8f));
             AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 2", "Vision_Port_2", 0.05f, 0.8f));
             //WW2 = World War 2

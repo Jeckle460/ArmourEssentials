@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CubeBlocks>
-<!--_____________________________________3x3 START______________________________________________-->
+		<!--_____________________________________3x3 START______________________________________________-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -92,7 +92,6 @@
 					<TypeId>CubeBlock</TypeId>
 					<SubtypeId>TurretRing3x3MantletHalfOffset</SubtypeId>
 				</BlockVariant>
-				
 			</BlockVariants>
 			<MirroringY>Z</MirroringY>
 		</Definition>
@@ -203,7 +202,7 @@
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<Definition> <!--AdvRotor3x3-->
-            <Id>
+			<Id>
 				<TypeId>MotorAdvancedRotor</TypeId>
 				<SubtypeId>AdvTurretRingRotor3x3</SubtypeId>
 			</Id>
@@ -351,7 +350,6 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3Floored_CENTERED-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -534,11 +532,8 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		
-		
-		
-<!--_____________________________________3x3 END :: 4x4 START______________________________________________-->
-		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4--> 
+		<!--_____________________________________3x3 END :: 4x4 START______________________________________________-->
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator4x4</SubtypeId>
@@ -580,7 +575,7 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 			<BlockVariants>
-			<BlockVariant>
+				<BlockVariant>
 					<TypeId>MotorStator</TypeId>
 					<SubtypeId>TurretRingStator4x4_OFFSET</SubtypeId>
 				</BlockVariant>
@@ -689,7 +684,7 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4_OFFSET--> 
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4_OFFSET-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator4x4_OFFSET</SubtypeId>
@@ -818,10 +813,7 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		
-		
-		
-<!--_____________________________________4x4 END :: 5x5 START______________________________________________-->
+		<!--_____________________________________4x4 END :: 5x5 START______________________________________________-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -1001,7 +993,6 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-
 		<Definition> <!--Rotor5x5-->
 			<Id>
 				<TypeId>MotorRotor</TypeId>
@@ -1023,7 +1014,7 @@
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<Definition> <!--AdvRotor5x5-->
-            <Id>
+			<Id>
 				<TypeId>MotorAdvancedRotor</TypeId>
 				<SubtypeId>AdvTurretRingRotor5x5</SubtypeId>
 			</Id>
@@ -1085,7 +1076,6 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5Floored_OFFSET-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -1129,7 +1119,6 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-	
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator5x5Floored_OFFSET-->
 			<Id>
 				<TypeId>MotorAdvancedStator</TypeId>
@@ -1173,7 +1162,6 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		
 		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing5x5Mantlet-->
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -1228,7 +1216,217 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-<!--_____________________________________5x5 END :: NakedStator Start______________________________________________-->	
+		<!--_____________________________________5x5 END :: 7x7 Start______________________________________________-->
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator7x7-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator7x7</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 7x7</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRingStator7x7.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator7x7</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator7x7_OFFSET</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>TurretRingStator7x7_CENTERED</SubtypeId>
+				</BlockVariant>		
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>TurretRing7x7Mantlet</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>TurretRing7x7MantletHalfOffset</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator7x7_OFFSET-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator7x7_OFFSET</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 7x7 OFFSET</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRingStator7x7.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator7x7_OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator7x7_CENTERED-->
+			<Id>
+				<TypeId>MotorStator</TypeId>
+				<SubtypeId>TurretRingStator7x7_CENTERED</SubtypeId>
+			</Id>
+			<DisplayName>TurretRing Rotor 7x7 CENTERED</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRingStator7x7.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="12"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRingStator7x7_CENTERED</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.002</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>TurretRingRotor5x5</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing7x7Mantlet-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing7x7Mantlet</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 7x7 Mantlet</DisplayName>
+			<Description>A decorative Turret Ring!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRing7x7Mantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRing7x7Mantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing7x7Mantlet</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing7x7MantletHalfOffset-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing7x7MantletHalfOffset</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 7x7 Mantlet Half Offset</DisplayName>
+			<Description>A decorative Turret Ring! - Half Offset</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRing7x7Mantlet.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="-0.5" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRing7x7Mantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing7x7MantletHalfOffset</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<!--_____________________________________7x7 END :: NakedStator Start______________________________________________-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStator-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -1272,18 +1470,18 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 			<BlockVariants>
-			<BlockVariant>
-				<TypeId>MotorStator</TypeId>
-				<SubtypeId>NakedRotorOffset</SubtypeId>
-			</BlockVariant>
-			<BlockVariant>
-				<TypeId>MotorStator</TypeId>
-				<SubtypeId>NakedRotorHalfOffset</SubtypeId>
-			</BlockVariant>
-			<BlockVariant>
-				<TypeId>MotorRotor</TypeId>
-				<SubtypeId>NakedRotor</SubtypeId>
-			</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>NakedRotorOffset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorStator</TypeId>
+					<SubtypeId>NakedRotorHalfOffset</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorRotor</TypeId>
+					<SubtypeId>NakedRotor</SubtypeId>
+				</BlockVariant>
 			</BlockVariants>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStatorOffset-->
@@ -1329,10 +1527,10 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 			<BlockVariants>
-			<BlockVariant>
-				<TypeId>MotorRotor</TypeId>
-				<SubtypeId>NakedRotor</SubtypeId>
-			</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorRotor</TypeId>
+					<SubtypeId>NakedRotor</SubtypeId>
+				</BlockVariant>
 			</BlockVariants>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStatorQuarterOffset-->
@@ -1378,10 +1576,10 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 			<BlockVariants>
-			<BlockVariant>
-				<TypeId>MotorRotor</TypeId>
-				<SubtypeId>NakedRotor</SubtypeId>
-			</BlockVariant>
+				<BlockVariant>
+					<TypeId>MotorRotor</TypeId>
+					<SubtypeId>NakedRotor</SubtypeId>
+				</BlockVariant>
 			</BlockVariants>
 		</Definition>
 		<Definition> <!--NakedRotor-->
@@ -1404,8 +1602,7 @@
 			<BlockPairName>NakedRotor</BlockPairName>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-
-<!-- CTC -->
+		<!-- CTC -->
 		<Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition"> <!--CTC-->
 			<Id>
 				<TypeId>TurretControlBlock</TypeId>
@@ -1432,10 +1629,10 @@
 			<BuildTimeSeconds>2</BuildTimeSeconds>
 			<ResourceSinkGroup>Utility</ResourceSinkGroup>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>Default</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<PlayerInputDivider>75</PlayerInputDivider>
 			<PowerInputIdle>0.0005</PowerInputIdle>
 			<PCU>100</PCU>
@@ -1483,10 +1680,10 @@
 			<BuildTimeSeconds>2</BuildTimeSeconds>
 			<ResourceSinkGroup>Utility</ResourceSinkGroup>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>Default</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<PlayerInputDivider>75</PlayerInputDivider>
 			<PowerInputIdle>0.0005</PowerInputIdle>
 			<PCU>100</PCU>
@@ -1524,10 +1721,10 @@
 			<BuildTimeSeconds>2</BuildTimeSeconds>
 			<ResourceSinkGroup>Utility</ResourceSinkGroup>
 			<DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>Default</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
+			<DamagedSound>ParticleElectrical</DamagedSound>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<PlayerInputDivider>75</PlayerInputDivider>
 			<PowerInputIdle>0.0005</PowerInputIdle>
 			<PCU>100</PCU>
@@ -1539,8 +1736,7 @@
 			</TieredUpdateTimes>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-		
-<!-- ProgrammableBlock-->
+		<!-- ProgrammableBlock-->
 		<Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition"> <!--PB-->
 			<Id>
 				<TypeId>MyProgrammableBlock</TypeId>
@@ -1564,7 +1760,6 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<!--Fuckery Begins-->
-			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>2</BuildTimeSeconds>
@@ -1611,7 +1806,6 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<!--Fuckery Begins-->
-			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>2</BuildTimeSeconds>
@@ -1648,7 +1842,6 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<!--Fuckery Begins-->
-			<MirroringZ>Y</MirroringZ>
 			<MirroringY>Z</MirroringY>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>2</BuildTimeSeconds>
@@ -1662,8 +1855,5 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-
-		
-
 	</CubeBlocks>
 </Definitions>

@@ -69,7 +69,14 @@
             </Id>
             <Size x=".6" y=".6" z=".625" />
         </EntityComponent>
-
+        <!-- Kornet ATGM Ammorack -->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>KornetATGMRack</SubtypeId>
+            </Id>
+            <Size x="1" y=".7" z=".8" />
+        </EntityComponent>
   </EntityComponents>
 </Definitions> 
 

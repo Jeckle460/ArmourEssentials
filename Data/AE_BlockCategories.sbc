@@ -57,17 +57,18 @@
 				<string>CubeBlock/WW2RangefinderMantlet2_Offset_Right</string>
 
 				<!--Ammoracks-->
-				<string>CubeBlock/AmmorackTypeIII</string>
-				<string>CubeBlock/AmmorackTypeIII-2</string>
-				<string>CubeBlock/AmmorackTypeIII-3</string>
-				<string>CubeBlock/AmmorackTypeIII-3a</string>
-				<string>CubeBlock/AmmorackTypeIII-4</string>
-				<string>CubeBlock/AmmorackTypeIII-5</string>
-				<string>CubeBlock/AmmorackTypeIII-5a</string>
-				<string>CubeBlock/AmmorackTypeIII-5b</string>
-				<string>CubeBlock/AmmorackTypeIII-6a</string>
-				<string>CubeBlock/AmmorackTypeIII-6b</string>
-				<string>CubeBlock/AmmorackTypeIV</string>
+				<string>CargoContainer/AmmorackTypeIII</string>
+				<string>CargoContainer/AmmorackTypeIII-2</string>
+				<string>CargoContainer/AmmorackTypeIII-3</string>
+				<string>CargoContainer/AmmorackTypeIII-3a</string>
+				<string>CargoContainer/AmmorackTypeIII-4</string>
+				<string>CargoContainer/AmmorackTypeIII-5</string>
+				<string>CargoContainer/AmmorackTypeIII-5a</string>
+				<string>CargoContainer/AmmorackTypeIII-5b</string>
+				<string>CargoContainer/AmmorackTypeIII-6a</string>
+				<string>CargoContainer/AmmorackTypeIII-6b</string>
+				<string>CargoContainer/AmmorackTypeIV</string>
+				<string>CargoContainer/KornetATGMRack</string>
 
 				<!--TurretRingRotors 3x3-->
 				<string>MotorStator/TurretRingStator3x3</string>
@@ -103,6 +104,13 @@
 				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
 				<string>CubeBlock/TurretRing5x5Mantlet</string>
 				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+
+				<!--Mantlet 7x7-->
+				<string>MotorStator/TurretRingStator7x7</string>
+				<string>MotorStator/TurretRingStator7x7_OFFSET</string>
+				<string>MotorStator/TurretRingStator7x7_CENTERED</string>
+				<string>CubeBlock/TurretRing7x7Mantlet</string>
+				<string>CubeBlock/TurretRing7x7MantletHalfOffset</string>
 
 				<!--SlimRotors-->
 				<string>MotorStator/NakedStator</string>
@@ -198,17 +206,18 @@
             <StrictSearch>true</StrictSearch>
             <ItemIds>
 				<!--Ammoracks-->
-				<string>CubeBlock/AmmorackTypeIII</string>
-				<string>CubeBlock/AmmorackTypeIII-2</string>
-				<string>CubeBlock/AmmorackTypeIII-3</string>
-				<string>CubeBlock/AmmorackTypeIII-3a</string>
-				<string>CubeBlock/AmmorackTypeIII-4</string>
-				<string>CubeBlock/AmmorackTypeIII-5</string>
-				<string>CubeBlock/AmmorackTypeIII-5a</string>
-				<string>CubeBlock/AmmorackTypeIII-5b</string>
-				<string>CubeBlock/AmmorackTypeIII-6a</string>
-				<string>CubeBlock/AmmorackTypeIII-6b</string>
-				<string>CubeBlock/AmmorackTypeIV</string>
+				<string>CargoContainer/AmmorackTypeIII</string>
+				<string>CargoContainer/AmmorackTypeIII-2</string>
+				<string>CargoContainer/AmmorackTypeIII-3</string>
+				<string>CargoContainer/AmmorackTypeIII-3a</string>
+				<string>CargoContainer/AmmorackTypeIII-4</string>
+				<string>CargoContainer/AmmorackTypeIII-5</string>
+				<string>CargoContainer/AmmorackTypeIII-5a</string>
+				<string>CargoContainer/AmmorackTypeIII-5b</string>
+				<string>CargoContainer/AmmorackTypeIII-6a</string>
+				<string>CargoContainer/AmmorackTypeIII-6b</string>
+				<string>CargoContainer/AmmorackTypeIV</string>
+				<string>CargoContainer/KornetATGMRack</string>
 
             </ItemIds>
         </Category>
@@ -255,6 +264,13 @@
 				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
 				<string>CubeBlock/TurretRing5x5Mantlet</string>
 				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+
+				<!--Mantlet 7x7-->
+				<string>MotorStator/TurretRingStator7x7</string>
+				<string>MotorStator/TurretRingStator7x7_OFFSET</string>
+				<string>MotorStator/TurretRingStator7x7_CENTERED</string>
+				<string>CubeBlock/TurretRing7x7Mantlet</string>
+				<string>CubeBlock/TurretRing7x7MantletHalfOffset</string>
 
 				<!--SlimRotors-->
 				<string>MotorStator/NakedStator</string>
@@ -340,6 +356,25 @@
 				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
 				<string>CubeBlock/TurretRing5x5Mantlet</string>
 				<string>CubeBlock/TurretRing5x5MantletHalfOffset</string>
+            </ItemIds>
+        </Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>      7x7</DisplayName>
+            <Name>AE_Category91</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+
+				<!--TurretRingRotors 7x7-->
+				<string>MotorStator/TurretRingStator7x7</string>
+				<string>MotorStator/TurretRingStator7x7_OFFSET</string>
+				<string>MotorStator/TurretRingStator7x7_CENTERED</string>
+
+				<string>CubeBlock/TurretRing7x7Mantlet</string>
+				<string>CubeBlock/TurretRing7x7MantletHalfOffset</string>
             </ItemIds>
         </Category>
 		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">

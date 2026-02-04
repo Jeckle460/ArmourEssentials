@@ -702,7 +702,7 @@
             </Id>
             <DisplayName>Armoured Gunsight - Wedge</DisplayName>
             <Description>A Gunsight, inset into armour</Description>
-            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\GCArmouredWedge.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />

@@ -127,6 +127,22 @@
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="SpiderwebGunsightALTOD" />
             </Blocks>
         </BlockVariantGroup>
+    <!--ArmouredGunsights-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GCArmouredCube" />
+            <Icon>Textures\GUI\Icons\Cubes\GCArmouredCube.dds</Icon>
+            <DisplayName>GCArmouredCube</DisplayName>
+            <Description>A Gunsight, inset into armour</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredCube" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredHalfCube" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedge1x2Base" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedgeCropped" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedge" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedge1x2Tip" />
+            </Blocks>
+        </BlockVariantGroup>
+        
 
     </BlockVariantGroups>
 </Definitions>

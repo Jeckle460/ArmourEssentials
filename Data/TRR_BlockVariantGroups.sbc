@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretRingStator3x3" />
+            <Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3.dds</Icon>
+            <DisplayName>Turret Ring Rotor 3x3</DisplayName>
+            <Description>3x3 Turret Ring Rotors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator3x3" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator3x3_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator3x3_CENTERED" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator3x3Floored" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator3x3Floored_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator3x3Floored_CENTERED" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator3x3Floored" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator3x3Floored_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator3x3Floored_CENTERED" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="TurretRingRotor3x3" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="AdvTurretRingRotor3x3" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing3x3Mantlet" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing3x3MantletHalfOffset" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretRingStator4x4" />
+            <Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator4x4.dds</Icon>
+            <DisplayName>Turret Ring Rotor 4x4</DisplayName>
+            <Description>4x4 Turret Ring Rotors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator4x4" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator4x4_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator4x4Floored" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator4x4Floored_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator4x4Floored" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator4x4Floored_OFFSET" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretRingStator5x5" />
+            <Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator5x5.dds</Icon>
+            <DisplayName>Turret Ring Rotor 5x5</DisplayName>
+            <Description>5x5 Turret Ring Rotors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator5x5" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator5x5_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator5x5_CENTERED" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator5x5Floored" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator5x5Floored_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator5x5Floored_CENTERED" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator5x5Floored" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator5x5Floored_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="AdvTurretRingStator5x5Floored_CENTERED" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="TurretRingRotor5x5" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="AdvTurretRingRotor5x5" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing5x5Mantlet" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing5x5MantletHalfOffset" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretRingStator7x7" />
+            <Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>
+            <DisplayName>Turret Ring Rotor 7x7</DisplayName>
+            <Description>7x7 Turret Ring Rotors</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator7x7" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator7x7_OFFSET" />
+                <Block Type="MyObjectBuilder_MotorStator" Subtype="TurretRingStator7x7_CENTERED" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing7x7Mantlet" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing7x7MantletHalfOffset" />
+            </Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>

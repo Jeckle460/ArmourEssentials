@@ -7,6 +7,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator3x3</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 3x3</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3.dds</Icon>
@@ -43,56 +44,6 @@
 			<RotorType>Rotor</RotorType>
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator3x3_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator3x3_CENTERED</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator3x3Floored</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator3x3Floored_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator3x3Floored_CENTERED</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator3x3Floored</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator3x3Floored_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator3x3Floored_CENTERED</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorRotor</TypeId>
-					<SubtypeId>TurretRingRotor3x3</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedRotor</TypeId>
-					<SubtypeId>AdvTurretRingRotor3x3</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>TurretRing3x3Mantlet</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>TurretRing3x3MantletHalfOffset</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3Floored-->
@@ -100,6 +51,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator3x3Floored</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 3x3 Floored</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3Floored.dds</Icon>
@@ -143,6 +95,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator3x3Floored</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 3x3 Floored</DisplayName>
 			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator3x3Floored.dds</Icon>
@@ -186,6 +139,7 @@
 				<TypeId>MotorRotor</TypeId>
 				<SubtypeId>TurretRingRotor3x3</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor Part 3x3</DisplayName>
 			<Description>I am [TITLECARD]!!!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingRotor5x5.dds</Icon>
@@ -206,6 +160,7 @@
 				<TypeId>MotorAdvancedRotor</TypeId>
 				<SubtypeId>AdvTurretRingRotor3x3</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor Part 3x3</DisplayName>
 			<Description>I am [TITLECARD]!!!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingRotor3x3.dds</Icon>
@@ -226,6 +181,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator3x3_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 3x3 Offset</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze, offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3.dds</Icon>
@@ -269,6 +225,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator3x3_CENTERED</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 3x3 Centered</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze, centered!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3.dds</Icon>
@@ -312,6 +269,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator3x3Floored_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 3x3 Floored Offset</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3Floored.dds</Icon>
@@ -355,6 +313,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator3x3Floored_CENTERED</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 3x3 Floored Centered</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator3x3Floored.dds</Icon>
@@ -398,6 +357,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator3x3Floored_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 3x3 Floored Offset</DisplayName>
 			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator3x3Floored.dds</Icon>
@@ -440,6 +400,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator3x3Floored_CENTERED</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 3x3 Floored Centered</DisplayName>
 			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator3x3Floored.dds</Icon>
@@ -538,6 +499,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator4x4</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 4x4</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator4x4.dds</Icon>
@@ -574,28 +536,6 @@
 			<RotorType>Rotor</RotorType>
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator4x4_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator4x4Floored</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator4x4Floored_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator4x4Floored</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator4x4Floored_OFFSET</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4Floored-->
@@ -603,6 +543,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator4x4Floored</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 4x4 Floored</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator4x4Floored.dds</Icon>
@@ -646,6 +587,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator4x4Floored</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 4x4 Floored</DisplayName>
 			<Description>A durable (Conveyored) rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator4x4Floored.dds</Icon>
@@ -689,6 +631,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator4x4_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 4x4 Offset</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze, offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator4x4.dds</Icon>
@@ -732,6 +675,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator4x4Floored_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 4x4 Floored Offset</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator4x4Floored.dds</Icon>
@@ -775,6 +719,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator4x4Floored_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 4x4 Floored Offset</DisplayName>
 			<Description>A durable (Conveyored) rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator4x4Floored.dds</Icon>
@@ -819,6 +764,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator5x5</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 5x5</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator5x5.dds</Icon>
@@ -855,56 +801,6 @@
 			<RotorType>Rotor</RotorType>
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator5x5_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator5x5_CENTERED</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator5x5Floored</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator5x5Floored_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator5x5Floored_CENTERED</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator5x5Floored</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator5x5Floored_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedStator</TypeId>
-					<SubtypeId>AdvTurretRingStator5x5Floored_CENTERED</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorRotor</TypeId>
-					<SubtypeId>TurretRingRotor5x5</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorAdvancedRotor</TypeId>
-					<SubtypeId>AdvTurretRingRotor5x5</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>TurretRing5x5Mantlet</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>TurretRing5x5MantletHalfOffset</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5Floored-->
@@ -912,6 +808,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator5x5Floored</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 5x5 Floored</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator5x5Floored.dds</Icon>
@@ -955,6 +852,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator5x5Floored</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 5x5 Floored</DisplayName>
 			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator5x5Floored.dds</Icon>
@@ -998,6 +896,7 @@
 				<TypeId>MotorRotor</TypeId>
 				<SubtypeId>TurretRingRotor5x5</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor Part 5x5</DisplayName>
 			<Description>I am [TITLECARD]!!!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingRotor5x5.dds</Icon>
@@ -1018,6 +917,7 @@
 				<TypeId>MotorAdvancedRotor</TypeId>
 				<SubtypeId>AdvTurretRingRotor5x5</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor Part 5x5</DisplayName>
 			<Description>I am [TITLECARD]!!!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingRotor5x5.dds</Icon>
@@ -1038,6 +938,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator5x5_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 5x5 Offset</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze, offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator5x5.dds</Icon>
@@ -1081,6 +982,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator5x5Floored_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 5x5 Floored Offset</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator5x5Floored.dds</Icon>
@@ -1124,6 +1026,7 @@
 				<TypeId>MotorAdvancedStator</TypeId>
 				<SubtypeId>AdvTurretRingStator5x5Floored_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>Advanced TurretRing Rotor 5x5 Floored Offset</DisplayName>
 			<Description>A durable (Conveyored) azimuth rotor that can survive more than a strong breeze - Now with a floor, and offset!</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingStator5x5Floored.dds</Icon>
@@ -1222,6 +1125,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator7x7</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 7x7</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>
@@ -1258,24 +1162,6 @@
 			<RotorType>Rotor</RotorType>
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator7x7_OFFSET</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>MotorStator</TypeId>
-					<SubtypeId>TurretRingStator7x7_CENTERED</SubtypeId>
-				</BlockVariant>		
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>TurretRing7x7Mantlet</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>TurretRing7x7MantletHalfOffset</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator7x7_OFFSET-->
@@ -1283,6 +1169,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator7x7_OFFSET</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 7x7 OFFSET</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>
@@ -1326,6 +1213,7 @@
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TurretRingStator7x7_CENTERED</SubtypeId>
 			</Id>
+			<Public>false</Public>
 			<DisplayName>TurretRing Rotor 7x7 CENTERED</DisplayName>
 			<Description>A durable azimuth rotor that can survive more than a strong breeze</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TurretRingStator7x7.dds</Icon>

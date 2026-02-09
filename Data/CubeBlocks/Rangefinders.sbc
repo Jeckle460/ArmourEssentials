@@ -552,7 +552,7 @@
 				<PCU>25</PCU>
 				<IsAirTight>false</IsAirTight>
 		</Definition>
-	<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF - Class 3-->
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF - Class 3-->
 				<Id>
 					<TypeId>CameraBlock</TypeId>
 					<SubtypeId>Class3_RoofLRF</SubtypeId>
@@ -595,7 +595,7 @@
 				<PCU>25</PCU>
 				<IsAirTight>false</IsAirTight>
 		</Definition>
-	<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF Offset Down - Class 3-->
+		<Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--Roof LRF Offset Down - Class 3-->
 				<Id>
 					<TypeId>CameraBlock</TypeId>
 					<SubtypeId>Class3_RoofLRF_Offset_Down</SubtypeId>

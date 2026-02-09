@@ -88,6 +88,10 @@
 				<!--TurretRingRotors 5x5-->
 				<string>MotorStator/TRR5x5-1</string>
 				<string>MotorStator/TRR5x5-OFFSET</string>
+				<string>MotorStator/TRR5x5-CENTERED</string>
+				<string>MotorAdvancedStator/TRR5x5-2</string>
+				<string>MotorAdvancedStator/TRR5x5-2-OFFSET</string>
+				<string>MotorAdvancedStator/TRR5x5-2-CENTERED</string>
 				<string>MotorRotor/TurretRingRotor5x5</string>
 				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
 				<string>CubeBlock/TurretRing5x5Mantlet</string>
@@ -236,6 +240,10 @@
 			<!--TurretRingRotors 5x5-->
 				<string>MotorStator/TRR5x5-1</string>
 				<string>MotorStator/TRR5x5-OFFSET</string>
+				<string>MotorStator/TRR5x5-CENTERED</string>
+				<string>MotorAdvancedStator/TRR5x5-2</string>
+				<string>MotorAdvancedStator/TRR5x5-2-OFFSET</string>
+				<string>MotorAdvancedStator/TRR5x5-2-CENTERED</string>
 				<string>MotorRotor/TurretRingRotor5x5</string>
 				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
 				<string>CubeBlock/TurretRing5x5Mantlet</string>
@@ -316,6 +324,10 @@
 				<!--TurretRingRotors 5x5-->
 				<string>MotorStator/TRR5x5-1</string>
 				<string>MotorStator/TRR5x5-OFFSET</string>
+				<string>MotorStator/TRR5x5-CENTERED</string>
+				<string>MotorAdvancedStator/TRR5x5-2</string>
+				<string>MotorAdvancedStator/TRR5x5-2-OFFSET</string>
+				<string>MotorAdvancedStator/TRR5x5-2-CENTERED</string>
 				<string>MotorRotor/TurretRingRotor5x5</string>
 				<string>MotorAdvancedRotor/AdvTurretRingRotor5x5</string>
 				<string>CubeBlock/TurretRing5x5Mantlet</string>

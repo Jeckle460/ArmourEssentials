@@ -35,6 +35,9 @@
                     <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR5x5-1" />
                     <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR5x5-OFFSET" />
                     <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR5x5-CENTERED" />
+                    <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR5x5-2" />
+                    <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR5x5-2-OFFSET" />
+                    <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR5x5-2-CENTERED" />
                     <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing5x5Mantlet" />
                     <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing5x5MantletHalfOffset" />
                 </Blocks>

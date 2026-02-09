@@ -210,14 +210,6 @@
 			<PCU>5</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing3x3MantletHalfOffset-->
 			<Id>
@@ -261,6 +253,8 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -304,6 +298,8 @@
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -349,7 +345,7 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
 			<HasPhysics>false</HasPhysics>
-			<Model>Models\Cubes\small\TurretRingRotors\TurretRing4x4Mantlet.mwm</Model>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="4"/>
 			</Components>
@@ -363,14 +359,6 @@
 			<PCU>5</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.50" StartY="0.50" EndX="1.50" EndY="1.50"/>
-				<MountPoint Side="Bottom" StartX="0.50" StartY="0.50" EndX="1.50" EndY="1.50"/>
-			</MountPoints>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing4x4MantletHalfOffset-->
 			<Id>
@@ -490,7 +478,7 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5_OFFSET-->
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator5x5-OFFSET-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
 				<SubtypeId>TRR5x5-OFFSET</SubtypeId>
@@ -610,14 +598,6 @@
 			<PCU>5</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing5x5MantletHalfOffset-->
 			<Id>
@@ -645,6 +625,144 @@
 			<HasPhysics>false</HasPhysics>
 			<IsStandAlone>false</IsStandAlone>
 			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator5x5-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR5x5-2</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 5x5</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR5x5-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR5x5-2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator5x5Offset-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR5x5-2-OFFSET</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 5x5 Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR5x5-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-2-OFFSET.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR5x5-2-OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator5x5Centered-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR5x5-2-CENTERED</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 5x5 Centered</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR5x5-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-2-CENTERED.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR5x5-2-CENTERED</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor5x5</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
@@ -706,7 +824,7 @@
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR7x7.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+			<Size x="3" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
 			<HasPhysics>false</HasPhysics>
@@ -815,14 +933,6 @@
 			<PCU>5</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing7x7MantletHalfOffset-->
 			<Id>
@@ -1470,7 +1580,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator3x3_CENTERED.mwm</Model>
 			<Components>
@@ -1558,7 +1668,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator3x3Floored_CENTERED.mwm</Model>
 			<Components>
@@ -1645,7 +1755,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\AdvTurretRingStator3x3Floored_CENTERED.mwm</Model>
 			<Components>
@@ -1689,7 +1799,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator4x4.mwm</Model>
 			<Components>
@@ -1733,7 +1843,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator4x4Floored.mwm</Model>
 			<Components>
@@ -1765,14 +1875,7 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator4x4Floored-->
 			<Id>
@@ -1785,7 +1888,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="2"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\AdvTurretRingStator4x4Floored.mwm</Model>
 			<Components>
@@ -1961,7 +2064,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="1" z="3"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator5x5.mwm</Model>
 			<Components>
@@ -2005,7 +2108,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="1" z="3"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator5x5Floored.mwm</Model>
 			<Components>
@@ -2049,7 +2152,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="1" z="3"/>
+			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\AdvTurretRingStator5x5Floored.mwm</Model>
 			<Components>

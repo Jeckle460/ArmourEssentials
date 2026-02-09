@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CubeBlocks>
-	<!--_____________________________________3x3 START______________________________________________-->
+		<!--_____________________________________3x3 START______________________________________________-->
 		<Definition> <!--Rotor3x3-->
 			<Id>
 				<TypeId>MotorRotor</TypeId>
@@ -58,7 +58,7 @@
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -104,7 +104,7 @@
 			<Size x="1" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -150,7 +150,7 @@
 			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -195,7 +195,7 @@
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="4"/>
@@ -230,10 +230,10 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.5" z="0"/>
+			<ModelOffset x="0" y="-0.75" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
-			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-Mantlet2.mwm</Model>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="15"/>
 			</Components>
@@ -248,7 +248,7 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-	<!--_____________________________________3x3 END :: 4x4 START______________________________________________-->
+		<!--_____________________________________3x3 END :: 4x4 START______________________________________________-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator4x4-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -335,7 +335,73 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-	<!--_____________________________________4x4 END :: 5x5 START______________________________________________-->
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing4x4Mantlet-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing4x4Mantlet</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 4x4 Mantlet</DisplayName>
+			<Description>A decorative Turret Ring!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR4x4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRing4x4Mantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing4x4Mantlet</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.50" StartY="0.50" EndX="1.50" EndY="1.50"/>
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.50" EndX="1.50" EndY="1.50"/>
+			</MountPoints>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition"> <!--TurretRing4x4MantletHalfOffset-->
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>TurretRing4x4MantletHalfOffset</SubtypeId>
+			</Id>
+			<DisplayName>Turret Ring 4x4 Mantlet Half Offset</DisplayName>
+			<Description>A decorative Turret Ring! - Half Offset</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR4x4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="-0.75" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-Mantlet.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="15"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TurretRing5x5MantletHalfOffset</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<HasPhysics>false</HasPhysics>
+			<IsStandAlone>false</IsStandAlone>
+			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<!--_____________________________________4x4 END :: 5x5 START______________________________________________-->
 		<Definition> <!--Rotor5x5-->
 			<Id>
 				<TypeId>MotorRotor</TypeId>
@@ -392,7 +458,7 @@
 			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -438,7 +504,7 @@
 			<Size x="2" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -484,7 +550,7 @@
 			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -529,7 +595,7 @@
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="4"/>
@@ -564,10 +630,10 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.5" z="0"/>
+			<ModelOffset x="0" y="-0.75" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
-			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-Mantlet2.mwm</Model>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="15"/>
 			</Components>
@@ -582,7 +648,7 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-	<!--_____________________________________5x5 END :: 7x7 Start______________________________________________-->
+		<!--_____________________________________5x5 END :: 7x7 Start______________________________________________-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator7x7-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -597,7 +663,7 @@
 			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR7x7-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -643,7 +709,7 @@
 			<Size x="2" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR7x7-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -689,7 +755,7 @@
 			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR7x7-1.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30"/>
@@ -734,7 +800,7 @@
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR7x7-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="4"/>
@@ -769,9 +835,9 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.5" z="0"/>
+			<ModelOffset x="0" y="-0.75" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
-            <HasPhysics>false</HasPhysics>
+			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR7x7-Mantlet.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="15"/>
@@ -787,7 +853,7 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-	<!--_____________________________________7x7 END :: NakedStator Start______________________________________________-->
+		<!--_____________________________________7x7 END :: NakedStator Start______________________________________________-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--NakedStator-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -963,7 +1029,7 @@
 			<BlockPairName>NakedRotor</BlockPairName>
 			<MirroringY>Z</MirroringY>
 		</Definition>
-	<!-- CTC -->
+		<!-- CTC -->
 		<Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition"> <!--CTC-->
 			<Id>
 				<TypeId>TurretControlBlock</TypeId>
@@ -1097,7 +1163,7 @@
 			</TieredUpdateTimes>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-	<!-- ProgrammableBlock-->
+		<!-- ProgrammableBlock-->
 		<Definition xsi:type="MyObjectBuilder_ProgrammableBlockDefinition"> <!--PB-->
 			<Id>
 				<TypeId>MyProgrammableBlock</TypeId>
@@ -1216,7 +1282,7 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-	<!-- Legacy Rotors-->
+		<!-- Legacy Rotors-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3-->
 			<Id>
 				<TypeId>MotorStator</TypeId>
@@ -1700,12 +1766,12 @@
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.50" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.50" StartY="0.50" EndX="1.50" EndY="1.50"/>
-				<MountPoint Side="Bottom" StartX="0.50" StartY="0.50" EndX="1.50" EndY="1.50"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator4x4Floored-->

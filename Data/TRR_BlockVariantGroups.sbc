@@ -10,6 +10,9 @@
                 <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR3x3-1" />
                 <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR3x3-OFFSET" />
                 <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR3x3-CENTERED" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR3x3-2" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR3x3-2-OFFSET" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR3x3-2-CENTERED" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing3x3Mantlet" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing3x3MantletHalfOffset" />
             </Blocks>
@@ -22,6 +25,8 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR4x4-1" />
                 <Block Type="MyObjectBuilder_MotorStator" Subtype="TRR4x4-OFFSET" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR4x4-2" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="TRR4x4-2-OFFSET" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing4x4Mantlet" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="TurretRing4x4MantletHalfOffset" />
             </Blocks>

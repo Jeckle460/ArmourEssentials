@@ -222,7 +222,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.75" z="0"/>
+			<ModelOffset x="0" y="-0.25" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
 			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-Mantlet.mwm</Model>
@@ -237,6 +237,144 @@
 			<HasPhysics>false</HasPhysics>
 			<IsStandAlone>false</IsStandAlone>
 			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator3x3-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR3x3-2</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 3x3</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR3x3-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR3x3-2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator3x3-OFFSET-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR3x3-2-OFFSET</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 3x3 Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR3x3-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>a
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-2-OFFSET.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR3x3-2-OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator3x3-CENTERED-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR3x3-2-CENTERED</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 3x3 Centered</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR3x3-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR3x3-2-CENTERED.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR3x3-2-CENTERED</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
@@ -371,7 +509,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.75" z="0"/>
+			<ModelOffset x="0" y="-0.25" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
 			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-Mantlet.mwm</Model>
@@ -386,6 +524,98 @@
 			<HasPhysics>false</HasPhysics>
 			<IsStandAlone>false</IsStandAlone>
 			<PCU>5</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator4x4-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR4x4-2</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 4x4</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR4x4-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR4x4-2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
+			<IsAirTight>false</IsAirTight>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--AdvStator4x4-OFFSET-->
+			<Id>
+				<TypeId>MotorAdvancedStator</TypeId>
+				<SubtypeId>TRR4x4-2-OFFSET</SubtypeId>
+			</Id>
+			<Public>true</Public>
+			<DisplayName>Advanced TurretRing Rotor 4x4 Offset</DisplayName>
+			<Description>A durable azimuth rotor that can survive more than a strong breeze - Conveyored!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\TRR4x4-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<IsStandAlone>false</IsStandAlone>
+			<HasPhysics>false</HasPhysics>
+			<Model>Models\Cubes\small\TurretRingRotors\TRR4x4-2-OFFSET.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="28"/>
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="LargeTube" Count="4" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SteelPlate" Count="8"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<!--Fuckery Begins-->
+			<BlockPairName>TRR4x4-2-OFFSET</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>30</BuildTimeSeconds>
+			<ResourceSinkGroup>Utility</ResourceSinkGroup>
+			<RequiredPowerInput>0.006</RequiredPowerInput>
+			<MaxForceMagnitude>2E9</MaxForceMagnitude>
+			<DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+			<PropulsionForce>15000</PropulsionForce>
+			<RotorPart>AdvTurretRingRotor3x3</RotorPart> <!-- Stays the same-->
+			<RotorDisplacementMin>-1.0</RotorDisplacementMin>
+			<RotorDisplacementMax>1.0</RotorDisplacementMax>
+			<RotorDisplacementMinSmall>-1.0</RotorDisplacementMinSmall>
+			<RotorDisplacementMaxSmall>1.0</RotorDisplacementMaxSmall>
+			<RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+			<SafetyDetach>5</SafetyDetach>
+			<SafetyDetachMax>5</SafetyDetachMax>
+			<RotorType>Rotor</RotorType>
+			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 			<MirroringY>Z</MirroringY>
 		</Definition>
@@ -610,7 +840,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.75" z="0"/>
+			<ModelOffset x="0" y="-0.25" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
 			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR5x5-Mantlet.mwm</Model>
@@ -945,7 +1175,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="-0.75" z="0"/>
+			<ModelOffset x="0" y="-0.25" z="0"/>
 			<IsStandAlone>false</IsStandAlone>
 			<HasPhysics>false</HasPhysics>
 			<Model>Models\Cubes\small\TurretRingRotors\TRR7x7-Mantlet.mwm</Model>

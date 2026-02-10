@@ -226,6 +226,9 @@
 				<string>MotorStator/TRR3x3-1</string>
 				<string>MotorStator/TRR3x3-OFFSET</string>
 				<string>MotorStator/TRR3x3-CENTERED</string>
+				<string>MotorAdvancedStator/TRR3x3-2</string>
+				<string>MotorAdvancedStator/TRR3x3-2-OFFSET</string>
+				<string>MotorAdvancedStator/TRR3x3-2-CENTERED</string>
 				<string>MotorRotor/TurretRingRotor3x3</string>
 				<string>MotorAdvancedRotor/AdvTurretRingRotor3x3</string>
 				<string>CubeBlock/TurretRing3x3Mantlet</string>
@@ -234,6 +237,8 @@
 			<!--TurretRingRotors 4x4-->
 				<string>MotorStator/TRR4x4-1</string>
 				<string>MotorStator/TRR4x4-OFFSET</string>
+				<string>MotorAdvancedStator/TRR4x4-2</string>
+				<string>MotorAdvancedStator/TRR4x4-2-OFFSET</string>
 				<string>CubeBlock/TurretRing4x4Mantlet</string>
 				<string>CubeBlock/TurretRing4x4MantletHalfOffset</string>
 

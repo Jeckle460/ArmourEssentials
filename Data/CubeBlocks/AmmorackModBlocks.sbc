@@ -9,14 +9,14 @@
 			</Id>
 			<DisplayName>Ammorack Type III</DisplayName>
 			<Description>One Type III shell.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -34,16 +34,17 @@
 			</Id>
 			<DisplayName>Type-3 Floor Ammorack </DisplayName>
 			<Description>Floor Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-2.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-2.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-2.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-2.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
 			<InventorySize>
                 <X>0.6</X>
                 <Y>0.6</Y>
@@ -58,14 +59,16 @@
 			</Id>
 			<DisplayName>Type-3 Armoured Ammorack 1x2</DisplayName>
 			<Description>Armoured Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-3.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-3.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-3.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-3.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -82,14 +85,16 @@
 			</Id>
 			<DisplayName>Type-3 Armoured Ammorack 1x2, Mirrored</DisplayName>
 			<Description>Armoured Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-3a.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-3a.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-3a.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-3a.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -106,14 +111,16 @@
 			</Id>
 			<DisplayName>Type-3 Armoured Ammorack Slope</DisplayName>
 			<Description>Armoured Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-4.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-4.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-4.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-4.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -130,14 +137,16 @@
 			</Id>
 			<DisplayName>Type-3 Armoured Ammorack Cube 1</DisplayName>
 			<Description>Armoured Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-5.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-5.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-5.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-5.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -154,14 +163,16 @@
 			</Id>
 			<DisplayName>Type-3 Armoured Ammorack Cube 2</DisplayName>
 			<Description>Armoured Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-5a.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-5a.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-5a.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-5a.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -178,14 +189,16 @@
 			</Id>
 			<DisplayName>Type-3 Armoured Ammorack Cube 3</DisplayName>
 			<Description>Armoured Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-5b.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-5b.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-5b.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-5b.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -202,14 +215,16 @@
 			</Id>
 			<DisplayName>Type-3 3x3 Circle Ammorack 1</DisplayName>
 			<Description>Curved Wall Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-6a.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-6a.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-6a.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-6a.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -226,14 +241,16 @@
 			</Id>
 			<DisplayName>Type-3 3x3 Circle Ammorack 2</DisplayName>
 			<Description>Curved Wall Ammorack, holds Class-III shells.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-6b.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-6b.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIII-6b.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-6b.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -252,14 +269,14 @@
 			</Id>
 			<DisplayName>Ammorack Type IV</DisplayName>
 			<Description>One Type IV shell.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIV.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIV.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AmmorackTypeIV.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIV.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -270,6 +287,31 @@
 			<BlockPairName>AmmorackTypeIV</BlockPairName>
 			<Public>false</Public>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackAdvanced-1</SubtypeId>
+			</Id>
+			<DisplayName>Blowout Panel Ammorack</DisplayName>
+			<Description>Blowout panels! increased weight for reducing the chance of an ammorack!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackAdvanced-1.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackAdvanced-1.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+                <X>0.5</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<BlockPairName>AmmorackAdvanced-1</BlockPairName>
+			<Public>true</Public>
+		</Definition>
 		<!-- Type-IV Ammoracks End -->
 		<!-- ATGM Ammoracks Start -->
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -279,14 +321,16 @@
 			</Id>
 			<DisplayName>Rotary ATGM Ammorack</DisplayName>
 			<Description>ATGM shell Rack, Conveyored.</Description>
-			<Icon>Textures\GUI\Icons\Cubes\KornetATGMRack.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\KornetATGMRack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="2" z="1"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\KornetATGMRack.mwm</Model>
+			<Model>Models\Cubes\small\Ammoracks\KornetATGMRack.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="LargeTube" Count="4"/>
+				<Component Subtype="Motor" Count="1"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -295,6 +339,32 @@
                 <Z>0.8</Z>
             </InventorySize>
 			<BlockPairName>KornetATGMRack</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>KornetATGMRack-2</SubtypeId>
+			</Id>
+			<DisplayName>ATGM Stowage Tube Ammorack</DisplayName>
+			<Description>ATGM Tube</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\KornetATGMRack-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\KornetATGMRack-2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="LargeTube" Count="4"/>
+				<Component Subtype="Motor" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.8</Z>
+            </InventorySize>
+			<BlockPairName>KornetATGMRack-2</BlockPairName>
 		</Definition>
 		<!-- ATGM Ammoracks End -->
 	</CubeBlocks>

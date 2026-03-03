@@ -3,7 +3,7 @@
     <BlockVariantGroups>
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-3 Floor Ammorack" />
-            <Icon>Textures\GUI\Icons\Cubes\AmmorackTypeIII-2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-2.dds</Icon>
             <DisplayName>Type-3 Ammoracks</DisplayName>
             <Description>All Ammoracks of Type-3.</Description>
             <Blocks>

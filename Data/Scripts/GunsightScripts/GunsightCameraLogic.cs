@@ -18,10 +18,13 @@ namespace Jeckle.Scripts
     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_CameraBlock), false)]
     public class GunsightCamLogic : MyGameLogicComponent
     {
+        // retry counter is handled locally during rangefind, no need for static field
+
         private static int rangeDelayTicks = 360; // default 6 seconds
         private static int tick = 0;
         private static int preventUntilTick = 0;
         private static bool pendingOutput = false;
+        private static bool pendingRelation = false;
         private static double storedDistance = 0.0;
         public static double publicDistance = 0.0;
         private static MyRelationsBetweenPlayerAndBlock storedRelation = MyRelationsBetweenPlayerAndBlock.NoOwnership;
@@ -42,21 +45,24 @@ namespace Jeckle.Scripts
                 //MyAPIGateway.Utilities.ShowMessage("GC DEBUG", $"preventUntilTick: {preventUntilTick}");
                 //MyAPIGateway.Utilities.ShowMessage("GC DEBUG", $"tick: {tick}");
                 //MyAPIGateway.Utilities.ShowMessage("GC DEBUG", $"ticks remaining: {preventUntilTick - tick}");
-
-            }
-            if (pendingOutput && preventUntilTick <= tick)
-            {
-                if (storedRelation == MyRelationsBetweenPlayerAndBlock.Friends || storedRelation == MyRelationsBetweenPlayerAndBlock.Owner)
+                if (pendingRelation && (storedRelation == MyRelationsBetweenPlayerAndBlock.Friends || storedRelation == MyRelationsBetweenPlayerAndBlock.Owner))
                 {
                     MyAPIGateway.Utilities.ShowNotification("Allies at Coordinates!", 2500, MyFontEnum.Green);
+                    pendingRelation = false;
+                    Camera.EnableRaycast = false;
                 }
-                MyAPIGateway.Utilities.ShowNotification($"Range: {storedDistance:n0} m", 2500, MyFontEnum.Green);
-                publicDistance = storedDistance;
-                pendingOutput = false;
-                
+
+                if (preventUntilTick <= tick)
+                {
+                    
+                    MyAPIGateway.Utilities.ShowNotification($"Range: {storedDistance:n0} m", 2500, MyFontEnum.Green);
+                    publicDistance = storedDistance;
+                    pendingOutput = false;
+                    Camera.EnableRaycast = false;
+                    
+                }
             }
-
-
+            
         }
 
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
@@ -126,13 +132,37 @@ namespace Jeckle.Scripts
                 camera.EnableRaycast = true;
 
             var detectedInfo = camera.Raycast(_maxRange);
+            // immediately turn off raycast to conserve resources; we only need it for one shot
+
             preventUntilTick = MyAPIGateway.Session.GameplayFrameCounter + rangeDelayTicks;
 
             if (detectedInfo.IsEmpty())
             {
-                MyAPIGateway.Utilities.ShowNotification("Rangefinding Failed", 2500, MyFontEnum.BuildInfoHighlight);
-                return;
+                // try a few more times in case of a transient miss
+                for (int attempt = 0; attempt < 5; attempt++)
+                {
+                    if (!camera.EnableRaycast)
+                        camera.EnableRaycast = true;
+
+                    detectedInfo = camera.Raycast(_maxRange);
+                    if (!detectedInfo.IsEmpty())
+                    {
+                        break; // got a hit, exit retry loop
+                    }
+
+                    
+                }
+
+                if (detectedInfo.IsEmpty())
+                {
+                    // still empty after retries, give up
+                    MyAPIGateway.Utilities.ShowNotification("Rangefinding failed. No target detected.", 2500, MyFontEnum.Red);
+                    return;
+                }
             }
+            
+            pendingRelation = true;
+
             var distance = Vector3D.Distance((Vector3D)detectedInfo.HitPosition, camera.GetPosition());
             if (distance <= _maxRange)
             {
@@ -143,6 +173,7 @@ namespace Jeckle.Scripts
 
                 return;
             }
+            
         }
     }
 

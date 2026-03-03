@@ -1369,6 +1369,51 @@
 			<BlockPairName>NakedRotor</BlockPairName>
 			<MirroringY>Z</MirroringY>
 		</Definition>
+		<!-- RotorEVEN -->
+		<Definition> <!--RotorEVEN-->
+			<Id>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>TurretRingRotorEVEN</SubtypeId>
+			</Id>
+			<Public>false</Public>
+			<DisplayName>TurretRing Rotor Part EVEN</DisplayName>
+			<Description>I am [EVEN]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingRotor5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<MechanicalTopInitialPlacementOffset x="0.5" y="0.0" z="0.0" />
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRingRotor5x5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="22"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>TurretRingRotorEVEN</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
+		<Definition> <!--RotorCENTERED-->
+			<Id>
+				<TypeId>MotorRotor</TypeId>
+				<SubtypeId>TurretRingRotorCENTERED</SubtypeId>
+			</Id>
+			<Public>false</Public>
+			<DisplayName>TurretRing Rotor Part CENTERED</DisplayName>
+			<Description>I am [CENTERED]!!!</Description>
+			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingRotor5x5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="2"/>
+			<MechanicalTopInitialPlacementOffset x="0.5" y="0.0" z="0.5" />
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\TurretRingRotors\TurretRingRotor5x5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="22"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>TurretRingRotorEVEN</BlockPairName>
+			<MirroringY>Z</MirroringY>
+		</Definition>
 		<!-- CTC -->
 		<Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition"> <!--CTC-->
 			<Id>
@@ -1810,7 +1855,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator3x3_CENTERED.mwm</Model>
 			<Components>
@@ -1898,7 +1943,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator3x3Floored_CENTERED.mwm</Model>
 			<Components>
@@ -1985,7 +2030,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\AdvTurretRingStator3x3Floored_CENTERED.mwm</Model>
 			<Components>
@@ -2029,7 +2074,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator4x4.mwm</Model>
 			<Components>
@@ -2073,7 +2118,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator4x4Floored.mwm</Model>
 			<Components>
@@ -2118,7 +2163,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="2" y="1" z="2"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\AdvTurretRingStator4x4Floored.mwm</Model>
 			<Components>
@@ -2294,7 +2339,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator5x5.mwm</Model>
 			<Components>
@@ -2338,7 +2383,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\TurretRingStator5x5Floored.mwm</Model>
 			<Components>
@@ -2382,7 +2427,7 @@
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
+			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\LegacyTRR\AdvTurretRingStator5x5Floored.mwm</Model>
 			<Components>

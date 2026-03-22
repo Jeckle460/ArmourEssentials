@@ -1377,12 +1377,12 @@
 			</Id>
 			<Public>false</Public>
 			<DisplayName>TurretRing Rotor Part EVEN</DisplayName>
-			<Description>I am [EVEN]!!!</Description>
+			<Description>I am [EVEN]!!! - NonFunctional due to an unresolved KEEN bug</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingRotor5x5.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="1"/>
-			<MechanicalTopInitialPlacementOffset x="0.5" y="0.0" z="0.0" />
+			<MechanicalTopInitialPlacementOffset x="-0.25" y="0" z="0" />
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\TurretRingRotor5x5.mwm</Model>
 			<Components>
@@ -1399,19 +1399,19 @@
 			</Id>
 			<Public>false</Public>
 			<DisplayName>TurretRing Rotor Part CENTERED</DisplayName>
-			<Description>I am [CENTERED]!!!</Description>
+			<Description>I am [CENTERED]!!! - NonFunctional due to an unresolved KEEN bug</Description>
 			<Icon>Textures\GUI\Icons\Cubes\TurretRingRotors\AdvTurretRingRotor5x5.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="1" z="2"/>
-			<MechanicalTopInitialPlacementOffset x="0.5" y="0.0" z="0.5" />
+			<MechanicalTopInitialPlacementOffset x="-0.25" y="0" z="-0.25" />
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\TurretRingRotors\TurretRingRotor5x5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="22"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
-			<BlockPairName>TurretRingRotorEVEN</BlockPairName>
+			<BlockPairName>TurretRingRotorCENTERED</BlockPairName>
 			<MirroringY>Z</MirroringY>
 		</Definition>
 		<!-- CTC -->
@@ -1667,7 +1667,7 @@
 			<PCU>100</PCU>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
-		<!-- Legacy Rotors-->
+<!-- Legacy Rotors-->
 		<Definition xsi:type="MyObjectBuilder_MotorStatorDefinition"> <!--Stator3x3-->
 			<Id>
 				<TypeId>MotorStator</TypeId>

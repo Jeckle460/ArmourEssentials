@@ -345,8 +345,8 @@
 				<TypeId>CargoContainer</TypeId>
 				<SubtypeId>KornetATGMRack-2</SubtypeId>
 			</Id>
-			<DisplayName>ATGM Stowage Tube Ammorack</DisplayName>
-			<Description>ATGM Tube</Description>
+			<DisplayName>ATGM Stowage 1 Tube Ammorack</DisplayName>
+			<Description>ATGM Tube - Capable of holding 1 ATGM.</Description>
 			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\KornetATGMRack-2.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -354,18 +354,80 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\Ammoracks\KornetATGMRack-2.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="1"/>
-				<Component Subtype="LargeTube" Count="4"/>
-				<Component Subtype="Motor" Count="1"/>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="LargeTube" Count="1"/>
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			<BuildTimeSeconds>6</BuildTimeSeconds>
 			<InventorySize>
-                <X>1</X>
-                <Y>0.7</Y>
-                <Z>0.8</Z>
+                <X>.1</X>
+                <Y>1</Y>
+                <Z>1</Z>
             </InventorySize>
 			<BlockPairName>KornetATGMRack-2</BlockPairName>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>KornetATGMRack-3</SubtypeId>
+			</Id>
+			<DisplayName>ATGM Stowage 3 Tube Ammorack</DisplayName>
+			<Description>ATGM Tube - Capable of holding 3 ATGMS.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\KornetATGMRack-3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\KornetATGMRack-3.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="LargeTube" Count="3"/>
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			 <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS2.mwm" />
+				<Model BuildPercentUpperBound="0.80" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS3.mwm" />
+            </BuildProgressModels>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<InventorySize>
+                <X>.3</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<BlockPairName>KornetATGMRack-3</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>KornetATGMRack-4</SubtypeId>
+			</Id>
+			<DisplayName>ATGM Stowage 2 Tube Ammorack</DisplayName>
+			<Description>ATGM Tube - Capable of holding 2 ATGMS.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\KornetATGMRack-4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\KornetATGMRack-4.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="LargeTube" Count="3"/>
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			 <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\Ammoracks\KornetATGMRack-4_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\small\Ammoracks\KornetATGMRack-4_BS2.mwm" />
+            </BuildProgressModels>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<InventorySize>
+                <X>.2</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+			<BlockPairName>KornetATGMRack-4</BlockPairName>
+		</Definition>
+		
 		<!-- ATGM Ammoracks End -->
 	</CubeBlocks>
 </Definitions>

@@ -75,7 +75,21 @@
                 <TypeId>Inventory</TypeId>
                 <SubtypeId>KornetATGMRack</SubtypeId>
             </Id>
-            <Size x="1" y=".7" z=".8" />
+            <Size x="1" y="0.7" z="0.8" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>KornetATGMRack-2</SubtypeId>
+            </Id>
+            <Size x="0.2" y="0.1" z="0.1" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>KornetATGMRack-3</SubtypeId>
+            </Id>
+            <Size x="0.3" y="0.1" z="0.1" />
         </EntityComponent>
   </EntityComponents>
 </Definitions> 

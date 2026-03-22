@@ -208,8 +208,15 @@
 				<string>CargoContainer/AmmorackTypeIII-5b</string>
 				<string>CargoContainer/AmmorackTypeIII-6a</string>
 				<string>CargoContainer/AmmorackTypeIII-6b</string>
+				<string>CargoContainer/AmmorackTypeIII-7</string>
+				<string>CargoContainer/AmmorackTypeIII-7a</string>
+				<string>CargoContainer/AmmorackTypeIII-7b</string>
 				<string>CargoContainer/AmmorackTypeIV</string>
+				<string>CargoContainer/AmmorackAdvanced-1</string>
 				<string>CargoContainer/KornetATGMRack</string>
+				<string>CargoContainer/KornetATGMRack-2</string>
+				<string>CargoContainer/KornetATGMRack-3</string>
+				<string>CargoContainer/KornetATGMRack-4</string>
 
             </ItemIds>
         </Category>

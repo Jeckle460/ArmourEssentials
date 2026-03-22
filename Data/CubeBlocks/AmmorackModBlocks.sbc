@@ -20,10 +20,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>1</X>
-                <Y>0.7</Y>
-                <Z>0.8</Z>
-            </InventorySize>
+				<X>1</X>
+				<Y>0.7</Y>
+				<Z>0.8</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII</BlockPairName>
 			<Public>false</Public>
 		</Definition>
@@ -46,10 +46,10 @@
 			</Components>
 			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.84</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.84</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-2</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -72,10 +72,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.6</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.6</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-3</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -98,10 +98,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.6</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.6</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-3a</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -124,10 +124,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.43</X>
-                <Y>0.43</Y>
-                <Z>0.72</Z>
-            </InventorySize>
+				<X>0.43</X>
+				<Y>0.43</Y>
+				<Z>0.72</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-4</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -150,10 +150,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.84</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.84</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-5</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -176,10 +176,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.84</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.84</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-5a</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -202,10 +202,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.84</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.84</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-5b</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -228,10 +228,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.5</X>
-                <Y>0.5</Y>
-                <Z>0.7</Z>
-            </InventorySize>
+				<X>0.5</X>
+				<Y>0.5</Y>
+				<Z>0.7</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-6a</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -254,11 +254,89 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.6</X>
-                <Y>0.6</Y>
-                <Z>0.625</Z>
-            </InventorySize>
+				<X>0.6</X>
+				<Y>0.6</Y>
+				<Z>0.625</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-6b</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIII-7</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Half 1</DisplayName>
+			<Description>Half block Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-7.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-7.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>0.27</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIII-7</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIII-7a</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Half 2</DisplayName>
+			<Description>Half block Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-7a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-7a.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>0.27</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIII-7a</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIII-7b</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Half 3</DisplayName>
+			<Description>Half block Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-7b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-7b.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>0.27</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIII-7b</BlockPairName>
 		</Definition>
 		<!-- Type-III Ammoracks End -->
 		<!-- Type-IV Ammoracks Start -->
@@ -280,10 +358,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>1</X>
-                <Y>0.7</Y>
-                <Z>0.8</Z>
-            </InventorySize>
+				<X>1</X>
+				<Y>0.7</Y>
+				<Z>0.8</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackTypeIV</BlockPairName>
 			<Public>false</Public>
 		</Definition>
@@ -305,10 +383,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>0.5</X>
-                <Y>1</Y>
-                <Z>1</Z>
-            </InventorySize>
+				<X>0.5</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
 			<BlockPairName>AmmorackAdvanced-1</BlockPairName>
 			<Public>true</Public>
 		</Definition>
@@ -334,10 +412,10 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-                <X>1</X>
-                <Y>0.7</Y>
-                <Z>0.8</Z>
-            </InventorySize>
+				<X>1</X>
+				<Y>0.7</Y>
+				<Z>0.8</Z>
+			</InventorySize>
 			<BlockPairName>KornetATGMRack</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -360,10 +438,10 @@
 			<CriticalComponent Subtype="Construction" Index="0"/>
 			<BuildTimeSeconds>6</BuildTimeSeconds>
 			<InventorySize>
-                <X>.1</X>
-                <Y>1</Y>
-                <Z>1</Z>
-            </InventorySize>
+				<X>.1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
 			<BlockPairName>KornetATGMRack-2</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -384,17 +462,17 @@
 				<Component Subtype="LargeTube" Count="3"/>
 			</Components>
 			<CriticalComponent Subtype="Construction" Index="0"/>
-			 <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS1.mwm" />
-                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS2.mwm" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.70" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS2.mwm" />
 				<Model BuildPercentUpperBound="0.80" File="Models\Cubes\small\Ammoracks\KornetATGMRack-3_BS3.mwm" />
-            </BuildProgressModels>
+			</BuildProgressModels>
 			<BuildTimeSeconds>8</BuildTimeSeconds>
 			<InventorySize>
-                <X>.3</X>
-                <Y>1</Y>
-                <Z>1</Z>
-            </InventorySize>
+				<X>.3</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
 			<BlockPairName>KornetATGMRack-3</BlockPairName>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -411,23 +489,22 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\Ammoracks\KornetATGMRack-4.mwm</Model>
 			<Components>
-				<Component Subtype="Construction" Count="4"/>
+				<Component Subtype="Construction" Count="2"/>
 				<Component Subtype="LargeTube" Count="3"/>
 			</Components>
 			<CriticalComponent Subtype="Construction" Index="0"/>
-			 <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\Ammoracks\KornetATGMRack-4_BS1.mwm" />
-                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\small\Ammoracks\KornetATGMRack-4_BS2.mwm" />
-            </BuildProgressModels>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\Ammoracks\KornetATGMRack-4_BS1.mwm" />
+				<Model BuildPercentUpperBound="0.70" File="Models\Cubes\small\Ammoracks\KornetATGMRack-4_BS2.mwm" />
+			</BuildProgressModels>
 			<BuildTimeSeconds>8</BuildTimeSeconds>
 			<InventorySize>
-                <X>.2</X>
-                <Y>1</Y>
-                <Z>1</Z>
-            </InventorySize>
+				<X>.2</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
 			<BlockPairName>KornetATGMRack-4</BlockPairName>
 		</Definition>
-		
 		<!-- ATGM Ammoracks End -->
 	</CubeBlocks>
 </Definitions>

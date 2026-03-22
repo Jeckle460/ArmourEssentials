@@ -2,20 +2,33 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-3 Floor Ammorack" />
-            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-2.dds</Icon>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-3 Blocks" />
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-3.dds</Icon>
             <DisplayName>Type-3 Ammoracks</DisplayName>
-            <Description>All Ammoracks of Type-3.</Description>
+            <Description>All Block-Style Ammoracks of Type-3.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-2" />
+
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-3" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-3a" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-4" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-5" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-5a" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-5b" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Type-3 Floor Ammorack" />
+            <Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-2.dds</Icon>
+            <DisplayName>Type-3 Ammoracks</DisplayName>
+            <Description>All Other Ammoracks of Type-3.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-2" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-6a" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-6b" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7a" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7b" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackAdvanced-1" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>

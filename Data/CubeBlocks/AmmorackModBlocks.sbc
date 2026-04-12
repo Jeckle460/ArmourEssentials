@@ -379,7 +379,10 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\small\Ammoracks\AmmorackAdvanced-1.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="Construction" Count="8"/>
+				<Component Subtype="Computer" Count="2"/>
+				<Component Subtype="SteelPlate" Count="10"/>
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
@@ -506,5 +509,26 @@
 			<BlockPairName>KornetATGMRack-4</BlockPairName>
 		</Definition>
 		<!-- ATGM Ammoracks End -->
+		<Definition>
+			<Id>
+				<TypeId>Ladder2</TypeId>
+				<SubtypeId>GrabHandleLadder</SubtypeId>
+			</Id>
+			<DisplayName>Grab Handle Ladder</DisplayName>
+			<Description>A small Ladder - PROTOTYPE AND SUBJECT TO CHANGE</Description>
+			<Icon>Textures\GUI\Icons\Cubes\GrabHandleLadder.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\GrabHandleLadder.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<BlockPairName>GrabHandleLadder</BlockPairName>
+		</Definition>
 	</CubeBlocks>
 </Definitions>

@@ -64,7 +64,7 @@ namespace Jeckle.Scripts
             if (message.Equals("/GCnews", StringComparison.OrdinalIgnoreCase))
             {
                 SelectedOverlayIndex.Clear();
-                MyAPIGateway.Utilities.ShowMessage("Big Update! Rangefinders added!", "Use the Rangefinder action or terminal button to get a range reading to the object in the center of the camera's view.");
+                MyAPIGateway.Utilities.ShowMessage("GunsightCameras", "Big Update! Updates to V2! - redesigns of many gunsights to function better with WARECRAFTER's AutomaticSight mod. ");
             }
             if (message.Equals("/GCregistry", StringComparison.OrdinalIgnoreCase))
             {
@@ -99,7 +99,7 @@ namespace Jeckle.Scripts
             Done = true;
 
             // these are all the options and they're not all required so use only what you need.
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Default Overlay", "Default_Overlay", 0.05f, 0.8f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Clear Overlay", "Default_Overlay", 0.05f, 0.8f));
 
             AddDopaminSights();
             CreateControls();
@@ -110,32 +110,32 @@ namespace Jeckle.Scripts
 
         static void AddDopaminSights()
         {
-            // these are all the options and they're not all required so use only what you need.
+            // these are all the options, they're not all required so use only what you need.
             
 
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 1", "Vision_Port_1", 0.05f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 2", "Vision_Port_2", 0.05f, 0.8f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 1", "Vision_Port_1", 0.05f, 0.8f)); // index 0, default
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 2", "Vision_Port_2", 0.05f, 0.8f)); // index 1
             //WW2 = World War 2
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied 1", "WW2_Allied_1", 0.03f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied 2", "WW2_Allied_2", 0.03f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Axis 1", "WW2_Axis_1", 0.03f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Axis 2", "WW2_Axis_2", 0.03f, 0.8f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied 1", "WW2_Allied_1", 0.03f, 0.8f)); // index 2
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied 2", "WW2_Allied_2", 0.03f, 0.8f)); // index 3
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Axis 1", "WW2_Axis_1", 0.03f, 0.8f)); // index 4
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Axis 2", "WW2_Axis_2", 0.03f, 0.8f)); // index 5
             //ECW = Early Cold War
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Allied 1", "ECW_Allied_1", 0.025f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Axis 1", "ECW_Axis_1", 0.025f, 0.8f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Allied 1", "ECW_Allied_1", 0.025f, 0.8f)); // index 6
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Axis 1", "ECW_Axis_1", 0.025f, 0.8f)); // index 7
             //LCW = Late Cold War
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Allied 1", "LCW_Allied_1", 0.0125f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Axis 1", "LCW_Axis_1", 0.0125f, 0.8f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Allied 1", "LCW_Allied_1", 0.0125f, 0.8f)); // index 8
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Axis 1", "LCW_Axis_1", 0.0125f, 0.8f)); // index 9
             //Holo = Holographic
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Holographic 1", "Holographic_1", 0.05f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Holographic 2", "Holographic_2", 0.05f, 0.8f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Holographic 3", "Holographic_3", 0.05f, 0.8f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Aircraft Holographic", "Holographic_1", 0.05f, 0.8f)); // index 10
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Chevron Holographic", "Holographic_2", 0.05f, 0.8f)); // index 11
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Crosshair Holographic", "Holographic_3", 0.05f, 0.8f)); // index 12
             //Thermal = Thermal Vision
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Thermal Sight 1", "Thermal_Sight_1", 0.01f, 0.5f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Thermal Sight 2", "Thermal_Sight_2", 0.01f, 0.5f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Thermal Sight 1", "Thermal_Sight_1", 0.01f, 0.5f)); // index 13
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Thermal Sight 2", "Thermal_Sight_2", 0.01f, 0.5f)); // index 14
 
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binocular 1", "Binocular_1", 0.4f, 1f));
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binocular 2", "Binocular_2", 0.4f, 1f));
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binocular 1", "Binocular_1", 0.4f, 1f)); // index 15
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binocular 2", "Binocular_2", 0.4f, 1f)); // index 16
         }
         static void CreateControls()
         {

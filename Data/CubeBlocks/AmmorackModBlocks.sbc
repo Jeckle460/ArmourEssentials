@@ -338,6 +338,84 @@
 			</InventorySize>
 			<BlockPairName>AmmorackTypeIII-7b</BlockPairName>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIII-7c</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Half Inverted 1</DisplayName>
+			<Description>Half block Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-7.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-7c.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>0.27</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIII-7c</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIII-7d</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Half Inverted 2</DisplayName>
+			<Description>Half block Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-7a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-7d.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>0.27</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIII-7d</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIII-7e</SubtypeId>
+			</Id>
+			<DisplayName>Type-3 Armoured Ammorack Half Inverted 3</DisplayName>
+			<Description>Half block Armoured Ammorack, holds Class-III shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIII-7b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIII-7e.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="2"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>0.27</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIII-7e</BlockPairName>
+		</Definition>
 		<!-- Type-III Ammoracks End -->
 		<!-- Type-IV Ammoracks Start -->
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -364,6 +442,31 @@
 			</InventorySize>
 			<BlockPairName>AmmorackTypeIV</BlockPairName>
 			<Public>false</Public>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIV-2</SubtypeId>
+			</Id>
+			<DisplayName>Type-IV Drum Ammorack</DisplayName>
+			<Description>Nine Type IV shells in a French-looking configuration.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIV-2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIV-2.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<InventorySize>
+				<X>1</X>
+				<Y>0.7</Y>
+				<Z>0.8</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIV-2</BlockPairName>
+			<Public>true</Public>
 		</Definition>
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
 			<Id>

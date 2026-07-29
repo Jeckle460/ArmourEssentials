@@ -1,6 +1,58 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CubeBlocks>
+		<!-- Type-I Ammoracks Start -->
+		<!-- Type-II Ammoracks Start -->
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeII</SubtypeId>
+			</Id>
+			<DisplayName>Type-2 Flat Clip Ammorack 1</DisplayName>
+			<Description>Clip Ammorack, holds Class-II shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeII.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeII.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<InventorySize>
+				<X>0.1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeII</BlockPairName>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>AmmorackTypeIIa</SubtypeId>
+			</Id>
+			<DisplayName>Type-2 Flat Clip Ammorack 2</DisplayName>
+			<Description>Clip Ammorack, holds Class-II shells.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\AmmorackTypeIIa.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\AmmorackTypeIIa.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="4"/>
+				<Component Subtype="SmallTube" Count="4"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+			<InventorySize>
+				<X>0.05</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>AmmorackTypeIIa</BlockPairName>
+		</Definition>
 		<!-- Type-III Ammoracks Start -->
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
 			<Id>
@@ -461,9 +513,9 @@
 			</Components>
 			<CriticalComponent Subtype="SteelPlate" Index="0"/>
 			<InventorySize>
-				<X>1</X>
-				<Y>0.7</Y>
-				<Z>0.8</Z>
+				<X>.02</X>
+				<Y>9</Y>
+				<Z>1</Z>
 			</InventorySize>
 			<BlockPairName>AmmorackTypeIV-2</BlockPairName>
 			<Public>true</Public>
@@ -610,6 +662,33 @@
 				<Z>1</Z>
 			</InventorySize>
 			<BlockPairName>KornetATGMRack-4</BlockPairName>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CargoContainer</TypeId>
+				<SubtypeId>ATGMRack-Drum</SubtypeId>
+			</Id>
+			<DisplayName>ATGM TOW Drum Ammorack</DisplayName>
+			<Description>ATGM TOW Drum - Capable of holding 6 ATGMS.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Ammoracks\ATGMRack-Drum.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="3" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\Ammoracks\ATGMRack-Drum.mwm</Model>
+			<Components>
+				<Component Subtype="Construction" Count="2"/>
+				<Component Subtype="LargeTube" Count="6"/>
+			</Components>
+			<CriticalComponent Subtype="Construction" Index="0"/>
+			<BuildTimeSeconds>8</BuildTimeSeconds>
+			<InventorySize>
+				<X>.08</X>
+				<Y>6</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<BlockPairName>ATGMRack-Drum</BlockPairName>
 		</Definition>
 		<!-- ATGM Ammoracks End -->
 		<Definition>

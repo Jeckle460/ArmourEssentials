@@ -93,18 +93,18 @@ namespace Jeckle.Scripts
             }
 
             float ClassMultiplier = 1f;
-            float _maxRange = 200f;
+            float _maxRange = 100f;
 
             var subtypeId = camera.BlockDefinition.SubtypeId.ToString();
-            int Class0Multiplier = 200; // Manual Rangefinding
-            int Class1Multiplier = 1000; // Optical Rangefinding
-            int Class2Multiplier = 2000; // Laser Rangefinding
-            int Class3Multiplier = 5000; // Advanced Laser Rangefinding
+            int Class0Multiplier = 1250; // Manual Rangefinding, 1250m max range
+            int Class1Multiplier = 3000; // Optical Rangefinding 3000m max range
+            int Class2Multiplier = 5000; // Laser Rangefinding 5000m max range
+            int Class3Multiplier = 8000; // Advanced Laser Rangefinding 8000m max range
 
             if (subtypeId.Contains("Class0_"))
             {
                 ClassMultiplier = Class0Multiplier;
-                rangeDelayTicks = 360; // 6 seconds
+                rangeDelayTicks = 480; // 8 seconds
             }
             else if (subtypeId.Contains("Class1_"))
             {
@@ -124,7 +124,7 @@ namespace Jeckle.Scripts
             else
             {
                 ClassMultiplier = Class0Multiplier;
-                rangeDelayTicks = 360; // 6 seconds (DEFAULT)
+                rangeDelayTicks = 480; // 8 seconds (DEFAULT)
             }
             _maxRange = ClassMultiplier;
 

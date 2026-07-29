@@ -110,32 +110,75 @@ namespace Jeckle.Scripts
 
         static void AddDopaminSights()
         {
-            // these are all the options, they're not all required so use only what you need.
+
+            //Utility
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Simple Sight 1", "Simple_1", 0.1f, 0.1f)); // index 1
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Simple Sight 2", "Simple_2", 0.1f, 0.1f)); // index 2
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "RoR Binoculars", "Binocular_1", 0.4f, 1f)); // index 3 // index 4
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Stadiametric Binoculars", "Binocular_2", 0.4f, 1f)); // index 4
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Commander Binoculars", "Binocular_3", 0.4f, 1f)); // index 12
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 13
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 14
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Sight Line", "Vision_Port_2", 0.4f, 1f)); // index 15
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Aircraft Holographic", "Holographic_1", 0.05f, 0.8f)); // index 5
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Chevron Holographic", "Holographic_2", 0.05f, 0.8f)); // index 6
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Crosshair Holographic", "Holographic_3", 0.05f, 0.8f)); // index 7
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 8
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 9
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 10
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 11
             
 
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 1", "Vision_Port_1", 0.05f, 0.8f)); // index 0, default
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Vision Port 2", "Vision_Port_2", 0.05f, 0.8f)); // index 1
-            //WW2 = World War 2
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied 1", "WW2_Allied_1", 0.03f, 0.8f)); // index 2
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied 2", "WW2_Allied_2", 0.03f, 0.8f)); // index 3
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Axis 1", "WW2_Axis_1", 0.03f, 0.8f)); // index 4
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Axis 2", "WW2_Axis_2", 0.03f, 0.8f)); // index 5
-            //ECW = Early Cold War
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Allied 1", "ECW_Allied_1", 0.025f, 0.8f)); // index 6
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Axis 1", "ECW_Axis_1", 0.025f, 0.8f)); // index 7
-            //LCW = Late Cold War
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Allied 1", "LCW_Allied_1", 0.0125f, 0.8f)); // index 8
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Axis 1", "LCW_Axis_1", 0.0125f, 0.8f)); // index 9
-            //Holo = Holographic
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Aircraft Holographic", "Holographic_1", 0.05f, 0.8f)); // index 10
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Chevron Holographic", "Holographic_2", 0.05f, 0.8f)); // index 11
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Crosshair Holographic", "Holographic_3", 0.05f, 0.8f)); // index 12
-            //Thermal = Thermal Vision
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Thermal Sight 1", "Thermal_Sight_1", 0.01f, 0.5f)); // index 13
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Thermal Sight 2", "Thermal_Sight_2", 0.01f, 0.5f)); // index 14
+            //WW2
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Vickers Mk.IV Sight", "WW2_Allied_1", 0.03f, 0.8f)); // index 16
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Allied No.30 Sight", "WW2_Allied_2", 0.03f, 0.8f)); // index 17
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 18
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 19
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 20
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 21
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 22
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 23
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 24
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 25
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 26
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Selbstfahrlafette-Zielfernrohr Sight", "WW2_Triangle", 0.03f, 0.8f)); // index 27
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Turmzielfernrohr Sight 1", "WW2_Axis_1", 0.03f, 0.8f)); // index 28
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "WW2 Turmzielfernrohr Sight 2", "WW2_Axis_2", 0.03f, 0.8f)); // index 29
 
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binocular 1", "Binocular_1", 0.4f, 1f)); // index 15
-            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Binocular 2", "Binocular_2", 0.4f, 1f)); // index 16
+            //ECW
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Generica Sight", "ECW_Allied_1", 0.0125f, 0.8f)); // index 30
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Полукруг Sight ", "ECW_Axis_1", 0.0125f, 0.8f)); // index 31
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "ECW Réglage Sight", "Reglage_Sight", 0.1f, 0.1f)); // index 32
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 33
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 34
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 35
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 36
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 37
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 38
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Lotfe ATGM Sight", "Lotfe_ATGM_Sight", 0.1f, 0.1f)); // index 39
+
+            //LCW
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW Raytheon Sight", "LCW_Allied_1", 0.0125f, 0.8f)); // index 40
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "LCW TPD-K1 Sight", "LCW_Axis_1", 0.0125f, 0.8f)); // index 41
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 42
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 43
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 44
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 45
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 46
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 47
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 48
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 49
+
+            //MDRN
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Green Thermal Gunner", "Thermal_1_Green", 0.01f, 0.5f)); // index 50
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "White Thermal Gunner", "Thermal_1_White", 0.01f, 0.5f)); // index 51
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "Green Thermal Commander", "Thermal_2_Green", 0.01f, 0.5f)); // index 52
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "White Thermal Commander", "Thermal_2_White", 0.01f, 0.5f)); // index 53
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 54
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 55
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "PLACEHOLDER", "FOR FUTURE SIGHTS", 0.1f, 0.1f)); // index 56
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "DRN Screen Sight", "DRN_Screen_Sight", 0.1f, 0.1f)); // index 57
+            AddOverlay(new Overlay(GunsightCam.Instance.NextRegistryKey, "M67 Stadia Sight", "M67_Stadia_Sight", 0.1f, 0.1f)); // index 58
         }
         static void CreateControls()
         {
@@ -158,6 +201,8 @@ namespace Jeckle.Scripts
                 {
                     foreach (var overlay in OverlayRegistryList)
                     {
+                        if (overlay.DisplayName == "PLACEHOLDER") continue; // skip placeholders in the combo box
+
                         list.Add(new MyTerminalControlComboBoxItem()
                         {
                             Key = overlay.RegistryKey,
@@ -239,11 +284,31 @@ namespace Jeckle.Scripts
             // yes, there's only one type of action
             foreach (Overlay overlay in OverlayRegistryList) // create one action per registered overlay
             {
+                if (overlay.DisplayName == "PLACEHOLDER") continue; // skip placeholders in the combo box
                 const string IdPrefix = "Jeckle_"; // to avoid conflicts with other mods, prefix your control ids with something unique to your mod
                 var a = MyAPIGateway.TerminalControls.CreateAction<IMyCameraBlock>(IdPrefix + "OverlaySelector" + overlay.RegistryKey.ToString());
                 a.Name = new StringBuilder("Set & View Overlay: " + overlay.DisplayName);
                 a.ValidForGroups = false; // If the action is visible for grouped blocks (as long as they all have this action).
-                a.Icon = GunsightCam.Instance.HalfPath + "GunsightCam.dds";
+                if(overlay.RegistryKey < 15)
+                {
+                    a.Icon = GunsightCam.Instance.HalfPath + "Utility.dds";
+                }
+                else if(overlay.RegistryKey < 30)
+                {
+                    a.Icon = GunsightCam.Instance.HalfPath + "WW2.dds";
+                }
+                else if(overlay.RegistryKey < 40)
+                {
+                    a.Icon = GunsightCam.Instance.HalfPath + "ECW.dds";
+                }
+                else if(overlay.RegistryKey < 50)
+                {
+                    a.Icon = GunsightCam.Instance.HalfPath + "LCW.dds";
+                }
+                else
+                {
+                    a.Icon = GunsightCam.Instance.HalfPath + "MDRN.dds";
+                }   
 
                 // Called when the toolbar slot is triggered
                 // Should not be unassigned.

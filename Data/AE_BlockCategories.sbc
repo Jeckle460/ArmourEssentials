@@ -21,6 +21,14 @@
 				<string>CameraBlock/GunsightCam_OffsetLeft</string>
 				<string>CameraBlock/GunsightCam_OffsetRight</string>
 				<string>CameraBlock/GunsightCam_OffsetUp</string>
+				<string>CameraBlock/GunsightCam_CornerTL</string>
+				<string>CameraBlock/GunsightCam_CornerTR</string>
+				<string>CameraBlock/GunsightCam_CornerBL</string>
+				<string>CameraBlock/GunsightCam_CornerBR</string>
+				<string>CameraBlock/GunsightCam_OffsetCornerTL</string>
+				<string>CameraBlock/GunsightCam_OffsetCornerTR</string>
+				<string>CameraBlock/GunsightCam_OffsetCornerBL</string>
+				<string>CameraBlock/GunsightCam_OffsetCornerBR</string>
 
 				<!--SpiderwebGunsights-->
 				<string>CameraBlock/SpiderwebGunsight</string>
@@ -57,6 +65,8 @@
 				<string>CubeBlock/WW2RangefinderMantlet2_Offset_Right</string>
 
 				<!--Ammoracks-->
+				<string>CargoContainer/AmmorackTypeII</string>
+				<string>CargoContainer/AmmorackTypeIIa</string>
 				<string>CargoContainer/AmmorackTypeIII</string>
 				<string>CargoContainer/AmmorackTypeIII-2</string>
 				<string>CargoContainer/AmmorackTypeIII-3</string>
@@ -80,6 +90,7 @@
 				<string>CargoContainer/KornetATGMRack-2</string>
 				<string>CargoContainer/KornetATGMRack-3</string>
 				<string>CargoContainer/KornetATGMRack-4</string>
+				<string>CargoContainer/ATGMRack-Drum</string>
 
 				<!--TurretRingRotors 3x3-->
 				<string>MotorStator/TRR3x3-1</string>

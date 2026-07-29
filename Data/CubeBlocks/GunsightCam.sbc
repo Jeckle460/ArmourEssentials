@@ -392,7 +392,319 @@
             <PCU>25</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
+    <!-- GunsightCamCorner-->
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_CornerTL</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Top Left</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="-0.175" y="0.175" z="0" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_CornerTL</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_CornerTR</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Top Right</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0.175" y="0.175" z="0" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_CornerTR</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_CornerBL</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Bottom Left</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="-0.175" y="-0.175" z="0" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_CornerBL</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_CornerBR</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Bottom Right</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0.175" y="-0.175" z="0" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_CornerBR</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightOffsetDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_OffsetCornerTL</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Top Left (Offset)</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="-0.175" y="0.175" z="0.25" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_OffsetCornerTL</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightOffsetDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_OffsetCornerTR</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Top Right (Offset)</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0.175" y="0.175" z="0.25" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_OffsetCornerTR</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightOffsetDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_OffsetCornerBL</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Bottom Left (Offset)</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="-0.175" y="-0.175" z="0.25" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_OffsetCornerBL</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--ShermanSightOffsetDown-->
+            <Id>
+                <TypeId>CameraBlock</TypeId>
+                <SubtypeId>GunsightCam_OffsetCornerBR</SubtypeId>
+            </Id>
+            <DisplayName>GunsightCam Corner Bottom Right (Offset)</DisplayName>
+            <Description>A WW2 Gunsight</Description>
+            <Icon>Textures\GUI\Icons\Cubes\GunsightCam.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0.175" y="-0.175" z="0.25" />
+            <Model>Models\Cubes\Small\GunsightCam.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="Computer" Count="3" />
+                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+            <BlockPairName>GunsightCam_OffsetCornerBR</BlockPairName>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.00003</RequiredPowerInput>
+            <OverlayTexture>Textures\GUI\Icons\Screens\Default_Overlay.dds</OverlayTexture>
+            <MinFov>0.03</MinFov>
+            <MaxFov>0.8</MaxFov>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>25</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
     <!-- SpiderwebOptic-->
         <Definition xsi:type="MyObjectBuilder_CameraBlockDefinition"> <!--SpiderwebOptic-->
             <Id>

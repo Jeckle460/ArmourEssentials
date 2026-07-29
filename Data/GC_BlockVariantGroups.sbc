@@ -84,10 +84,14 @@
             <Description>A WW2 Gunsight</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam" />
-                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Left" />
-                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Right" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Up" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_CornerTR" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Right" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_CornerBR" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Down" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_CornerBL" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Left" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_CornerTL" />  
             </Blocks>
         </BlockVariantGroup>
 
@@ -98,10 +102,14 @@
             <Description>A WW2 Gunsight - Offset</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_Offset" />
-                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetLeft" />
-                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetRight" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetUp" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetCornerTR" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetRight" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetCornerBR" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetDown" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetCornerBL" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetLeft" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GunsightCam_OffsetCornerTL" />
             </Blocks>
         </BlockVariantGroup>
 

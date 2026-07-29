@@ -22,6 +22,8 @@
             <DisplayName>Type-3 Ammoracks</DisplayName>
             <Description>All Other Ammoracks of Type-3.</Description>
             <Blocks>
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeII" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIIa" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-2" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-6a" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-6b" />
@@ -32,6 +34,7 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7d" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIII-7e" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackAdvanced-1" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="AmmorackTypeIV-2" />
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
@@ -54,7 +57,7 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack-2" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack-4" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="KornetATGMRack-3" />
-                
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="ATGMRack-Drum" /> 
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>

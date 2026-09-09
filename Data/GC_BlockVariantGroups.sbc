@@ -144,10 +144,13 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredCube" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredHalfCube" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredHalfCube2" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedge1x2Base" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedgeCropped" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedge" />
                 <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredWedge1x2Tip" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredHalfCyl" />
+                <Block Type="MyObjectBuilder_CameraBlock" Subtype="GCArmouredHalfCylOffset" />
             </Blocks>
         </BlockVariantGroup>
         
